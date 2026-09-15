@@ -26,3 +26,6 @@ venv/
 # IDE
 .idea/
 .vscode/
+
+# Распакованный датасет
+data/for_hackathon/

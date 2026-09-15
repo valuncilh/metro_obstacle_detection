@@ -29,3 +29,7 @@ olimpiada_ltc/
 
 ## Data
 - data/raw/for_hackathon.zst
+Распаковка:
+```bash
+    tar --zstd -xvf data/raw/for_hackathon.zst
+```

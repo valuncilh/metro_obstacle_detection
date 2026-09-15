@@ -1,0 +1,28 @@
+# Данные
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+*.zst
+*.zip
+*.db3
+*.mcap
+*.bag
+
+# ROS2
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Env
+.env
+
+# IDE
+.idea/
+.vscode/

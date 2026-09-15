@@ -25,10 +25,14 @@ private:
         pcl::PointCloud<pcl::PointXYZI>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZI>);
         pcl::fromROSMsg(*msg, *cloud);
 
+        // CropBox: зона непосредственно перед поездом (габарит)
+        // X: 5-200 м вперёд
+        // Y: -2.0 до 2.0 м по ширине
+        // Z: 0.0 до 3.5 м по высоте (над землёй)
         pcl::CropBox<pcl::PointXYZI> crop;
         crop.setInputCloud(cloud);
-        crop.setMin(Eigen::Vector4f(-2.0f, -1.5f, -0.5f, 1.0f));
-        crop.setMax(Eigen::Vector4f(300.0f, 1.5f, 4.0f, 1.0f));
+        crop.setMin(Eigen::Vector4f(5.0f, -2.0f, 0.0f, 1.0f));
+        crop.setMax(Eigen::Vector4f(200.0f, 2.0f, 3.5f, 1.0f));
 
         pcl::PointCloud<pcl::PointXYZI>::Ptr cropped(new pcl::PointCloud<pcl::PointXYZI>);
         crop.filter(*cropped);

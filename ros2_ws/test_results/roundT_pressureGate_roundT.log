@@ -1,0 +1,1211 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-09-15-20-57-24-844955-cachyos-x8664-33
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [preprocessor-1]: process started with pid [34]
+[INFO] [gauge_filter-2]: process started with pid [36]
+[INFO] [anomaly_detector-3]: process started with pid [38]
+[INFO] [decision_maker-4]: process started with pid [40]
+[decision_maker-4] [INFO] [1789505844.894269000] [decision_maker]: Decision maker node started
+[gauge_filter-2] [INFO] [1789505844.901453182] [gauge_filter]: Gauge filter node started
+[preprocessor-1] [INFO] [1789505844.914239723] [preprocessor]: Preprocessor node started
+[anomaly_detector-3] [INFO] [1789505844.915355430] [anomaly_detector]: Anomaly detector node started
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1789505846.642600588] [rosbag2_storage]: Opened database '/data/for_hackathon/roundT_pressureGate_roundT/roundT_pressureGate_roundT_0.db3' for READ_ONLY.
+[INFO] [1789505846.642636746] [rosbag2_player]: Set rate to 1
+[INFO] [1789505846.646081450] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1789505846.646106878] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1789505846.646113009] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1789505846.646118009] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1789505846.646123108] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1789505846.646456074] [rosbag2_storage]: Opened database '/data/for_hackathon/roundT_pressureGate_roundT/roundT_pressureGate_roundT_0.db3' for READ_ONLY.
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.669133348] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.669303227] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.680513256] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.680644502] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.689910477] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.690021575] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.698258766] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.698388470] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.705809227] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.705924153] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.714380916] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.714520409] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.722615032] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.722746439] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.730109907] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.730253758] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.737631003] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.737857919] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.744031812] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.744103447] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.759477481] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.759574243] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.850699814] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.850789974] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505848.969202378] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505848.969328636] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505849.052457838] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505849.052554239] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505849.195808170] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505849.195992987] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505849.260295588] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505849.260404713] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505849.351358380] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505849.351478927] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505849.455913100] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505849.456046741] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505849.555132422] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505849.555227181] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505849.674378944] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505849.674493699] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505849.752591326] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505849.752703156] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505849.862137837] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505849.862238306] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505849.949597127] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505849.949709448] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505850.073835179] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505850.074042709] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505850.147979986] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505850.148087919] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505850.248423028] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505850.248529057] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505850.351251232] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505850.351353925] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505850.460913951] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505850.461003509] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505850.559651317] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505850.559780169] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505850.657358617] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505850.657479003] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505850.757176714] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505850.757285748] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505850.847702346] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505850.848083493] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505850.954721266] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505850.954818008] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505851.070202380] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505851.070307588] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505851.164704435] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505851.164836794] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505851.255133075] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505851.255230669] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505851.366044480] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505851.366140390] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505851.458435468] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505851.458560523] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505851.562930454] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505851.563020734] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505851.658707877] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505851.658828143] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505851.759259562] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505851.759400076] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505851.868391322] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505851.868546724] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505851.959780677] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505851.959884362] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505852.063189832] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505852.063328934] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505852.151236655] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505852.151373392] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505852.254827712] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505852.254972554] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505852.363953140] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505852.364099986] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505852.465927408] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505852.466072320] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505852.557865744] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505852.558050281] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505852.656505455] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505852.656630079] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505852.756735375] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505852.756823651] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505852.855769938] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505852.855888621] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505852.956230792] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505852.956348894] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505853.050531889] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505853.050678103] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505853.152652471] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505853.152791622] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505853.254649120] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505853.254795555] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505853.357981530] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505853.358095424] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505853.457239753] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505853.457357684] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505853.854232519] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505853.854337887] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505853.953219522] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505853.953345799] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505854.055567260] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505854.055663431] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505854.150823311] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505854.150978523] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505854.256002160] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505854.256100645] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505854.459045192] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505854.459242863] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505854.578119396] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505854.578208653] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505854.666422840] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505854.666552714] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505854.772139419] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505854.772226082] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505854.851311172] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505854.851392344] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505854.954536500] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505854.954620999] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505855.058383716] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505855.058504022] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505855.178539241] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505855.178646663] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505855.261382473] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505855.261517597] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505855.362194895] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505855.362278342] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505855.457194143] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505855.457331942] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505855.577334369] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505855.577481456] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505855.763978810] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505855.764110949] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505855.855611541] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505855.855749751] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505855.955761959] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505855.955898115] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505856.052717884] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505856.052836777] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505856.159615592] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505856.159706543] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505856.259342153] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505856.259424658] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505856.347313732] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505856.347512315] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505856.454233161] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505856.454370590] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505856.552853543] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505856.552944074] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505856.654269169] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505856.654387972] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505856.748317358] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505856.748443185] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505856.868705410] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505856.868836716] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505856.945619137] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505856.945763619] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505857.051562672] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505857.051682247] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505857.157644927] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505857.157795109] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505857.253912667] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505857.254024157] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505857.365618140] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505857.365721775] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505857.448429882] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505857.448531773] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505857.548590217] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505857.548664968] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505857.653741212] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505857.653844236] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505857.763191417] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505857.763394679] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505857.851439445] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505857.851563087] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505857.955531089] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505857.955651535] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505858.047981244] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505858.048135584] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505858.157199783] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505858.157350446] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505858.249969739] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505858.250107057] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505858.355882254] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505858.356007008] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505858.459826711] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505858.459951996] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505858.555838669] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505858.555978953] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505858.671195013] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505858.671319076] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505858.756849747] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505858.756974551] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505858.858847335] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505858.858939808] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505858.953943903] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505858.954042178] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505859.052050338] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505859.052151698] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505859.158609768] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505859.158701110] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505859.250810203] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505859.250915000] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505859.359468829] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505859.359573285] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505859.454486799] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505859.454601424] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505859.558743882] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505859.558815447] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505859.660073625] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505859.660186086] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505859.752537825] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505859.752625019] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505859.862195138] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505859.862285327] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505859.962551671] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505859.962644505] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505860.059362460] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505860.059461676] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505860.162817906] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505860.162913355] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505860.253098432] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505860.253204883] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505860.366586002] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505860.366697091] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505860.460475481] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505860.460588934] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505860.576528462] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505860.576645462] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505860.676289836] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505860.676381869] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505860.769828105] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505860.769919286] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505860.852578831] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505860.852667868] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505860.958227769] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505860.958333478] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505861.070753792] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505861.070857507] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505861.150497125] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505861.150599367] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505861.259806932] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505861.259900118] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505861.360011429] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505861.360144869] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505861.454848638] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505861.454963975] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505861.562083967] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505861.562190187] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505861.662835962] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505861.662911975] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505861.753673485] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505861.753829518] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505861.860170957] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505861.860257099] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505861.969809934] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505861.969901145] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505862.046114975] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505862.046225202] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505862.152353761] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505862.152431727] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505862.253566020] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505862.253690624] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505862.367149789] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505862.367305953] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505862.458084955] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505862.458276915] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505862.559765244] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505862.559879929] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505862.672810150] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505862.672974499] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505862.759045974] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505862.759187580] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505862.854425101] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505862.854602164] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505862.959355909] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505862.959480343] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505863.067501528] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505863.067625621] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505863.159391417] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505863.159524737] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505863.268988012] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505863.269113378] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505863.356671787] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505863.356793305] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505863.448159400] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505863.448390885] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505863.580039252] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505863.580128891] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505863.654365203] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505863.654504014] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505863.754389740] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505863.754520967] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505863.853550904] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505863.853669196] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505863.963507626] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505863.963680391] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505864.054541436] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505864.054669737] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505864.147215729] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505864.147364589] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505864.256402714] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505864.256536265] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505864.360281002] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505864.360424943] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505864.472748161] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505864.472879108] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505864.569749917] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505864.569854854] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505864.676610840] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505864.676764088] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505864.755347921] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505864.755491801] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505864.873908011] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505864.874071959] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505864.956070989] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505864.956220019] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505865.063108023] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505865.063214654] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505865.153545231] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505865.153672501] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505865.253843601] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505865.253989075] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505865.365259625] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505865.365372597] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505865.449677901] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505865.449774813] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505865.556374465] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505865.556549775] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505865.674802646] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505865.674937610] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModelPlane::optimizeModelCoefficients] Not enough inliers found to optimize model coefficients (3)! Returning the same coefficients.
+[anomaly_detector-3] [INFO] [1789505865.765933177] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505865.766063232] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 1!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
+[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
+[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
+[anomaly_detector-3] [INFO] [1789505865.853653008] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505865.853786960] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505865.959041033] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505865.959165517] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505866.053349857] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505866.053475022] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505866.155343823] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505866.155468357] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505866.251783080] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505866.251897905] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505866.357306458] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505866.357422266] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505866.448045894] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505866.448148727] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505866.551523397] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505866.551603929] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505866.663506896] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505866.663631911] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505866.752573478] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505866.752682733] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505866.856650078] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505866.856776064] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505866.968274111] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505866.968389508] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505867.050113641] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505867.050231512] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505867.156523334] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505867.156633702] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505867.253963121] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505867.254073178] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505867.347145466] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505867.347260653] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505867.458746967] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505867.458881259] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505867.552190734] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505867.552284660] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505867.656002565] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505867.656102533] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505867.757663455] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505867.757776677] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505867.857329184] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505867.857435594] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505867.958043505] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505867.958146198] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505868.070441331] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505868.070568150] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505868.157473939] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505868.157626296] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505868.259858909] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505868.259963655] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505868.361656965] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505868.361820342] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505868.453625248] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505868.453740545] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505868.568513315] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505868.568593435] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505868.670009433] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505868.670123468] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505868.759354587] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505868.759495582] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505868.857413667] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505868.857519897] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505868.964317719] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505868.964412708] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505869.068534611] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505869.068664114] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505869.158522662] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505869.158605869] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505869.266271601] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505869.266358835] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505869.349968199] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505869.350064530] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505869.452654044] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505869.452747439] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505869.551362744] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505869.551442423] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505869.659988300] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505869.660087426] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505869.764824936] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505869.765013170] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505869.862778206] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505869.862860601] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505869.952765757] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505869.952859954] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505870.055795928] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505870.055891678] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505870.358437210] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505870.358535565] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505870.563040923] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505870.563119201] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505870.664768185] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505870.664882751] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505870.759051308] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505870.759143261] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505870.884140183] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505870.884265929] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505870.974295057] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505870.974424901] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505871.160557702] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505871.160639766] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505871.255914221] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505871.256009941] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505871.367698573] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505871.367777361] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505871.454937286] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505871.455054557] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505871.575130430] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505871.575218836] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505871.658424811] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505871.658525090] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505871.761226211] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505871.761322492] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505871.856270664] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505871.856440293] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505872.061901636] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505872.061990433] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505872.150232382] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505872.150307723] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505872.271965819] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505872.272066538] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505872.352763929] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505872.352879907] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505872.459220808] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505872.459305397] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505872.567655343] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505872.567768205] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505872.670140749] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505872.670291141] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505872.751950800] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505872.752049786] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505872.856545429] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505872.856640618] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505872.955023304] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505872.955134803] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789505873.050322073] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789505873.050462076] [decision_maker]: Safety status: SAFE

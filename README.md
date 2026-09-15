@@ -7,21 +7,25 @@
 
 ✅ Репозиторий инициализирован  
 ✅ Датасет распакован и проигрывается через Docker  
-✅ Определены параметры лидара: Hesai, топик `/lidar_points`, 307200 точек/кадр, 10 Гц  
-✅ Создан ROS 2 Python пакет `metro_obstacle_detection`  
-✅ Написана базовая нода `lidar_listener`, подписывающаяся на облако точек  
+✅ Определены параметры лидара: Hesai, топик `/sensing/lidar/hesai128/pointcloud`, 307200 точек/кадр, 10 Гц  
+✅ Создан ROS 2 C++ пакет `metro_obstacle_detection` с PCL  
+✅ Реализован пайплайн: preprocessor → gauge_filter → anomaly_detector → decision_maker  
+✅ Детекция препятствий работает на бэге `doubleT_obstacle` (2 кластера, статус DANGER)  
+✅ Измерение дистанции до ближайшего препятствия  
+✅ Публикация маркеров для визуализации в RViz2  
 
-🔲 В разработке: фильтрация по габариту, вычитание фона, детекция аномалий  
-🔲 В планах: трекинг, оценка опасности, интеграция с системой принятия решений
+🔲 В разработке: вычитание фона, трекинг между кадрами, фильтрация ложных срабатываний  
+🔲 В планах: оценка габаритов объекта, классификация опасности, интеграция с системой торможения
 
 ## Окружение
 
-- ОС: Ubuntu 22.04 LTS
+- ОС: любая с поддержкой Docker (Linux, Windows+WSL2, macOS)
 - ROS 2: Humble
+- C++17, PCL (Point Cloud Library)
 - Docker: обязателен для запуска
-- Базовый образ: `ros:humble-ros-base`
+- Базовый образ: `ros:humble-ros-base` + PCL зависимости
 
-> ⚠️ На хостовой системе ROS 2 не устанавливается. Вся разработка и запуск планируеться — через Docker.
+> На хостовой системе ROS 2 не требуется. Вся разработка и запуск — через Docker.
 
 ## Структура проекта
 
@@ -30,13 +34,22 @@ olimpiada_ltc/
 ├── data/
 │   ├── raw/                  # Исходные архивы (не коммитятся)
 │   └── for_hackathon/        # Распакованные бэги (не коммитятся)
-├── metro_obstacle_detection/ # ROS 2 workspace
+├── ros2_ws/                  # ROS 2 workspace
+│   ├── Dockerfile            # Docker-образ с PCL и зависимостями
 │   └── src/
-│       └── metro_obstacle_detection/  # Python-пакет
-│           ├── lidar_listener.py      # Нода подписки на /lidar_points
-│           ├── setup.py
-│           └── package.xml
-├── inspect_lidar.py          # Вспомогательный скрипт инспекции данных
+│       └── metro_obstacle_detection/  # C++ пакет
+│           ├── CMakeLists.txt
+│           ├── package.xml
+│           ├── src/
+│           │   ├── preprocessor.cpp       # Фильтрация, прореживание
+│           │   ├── gauge_filter.cpp       # Обрезка по габариту поезда
+│           │   ├── anomaly_detector.cpp   # Кластеризация, детекция, дистанция
+│           │   ├── decision_maker.cpp     # Принятие решения
+│           │   └── debug_logger.cpp       # Отладочный логгер
+│           ├── launch/
+│           │   └── obstacle_detection.launch.py
+│           └── config/
+│               └── params.yaml
 ├── README.md
 └── .gitignore
 ```
@@ -60,28 +73,51 @@ cd olimpiada_ltc
 tar --zstd -xvf data/raw/for_hackathon.zst -C data/
 ```
 
-### 3. Запустить бэг
+### 3. Собрать Docker-образ
+
+```bash
+docker build -t metro_obstacle:dev ros2_ws/
+```
+
+### 4. Запустить пайплайн с бэгом
 
 ```bash
 docker run --rm -it \
   --network host \
   -v $PWD/data:/data \
-  ros:humble-ros-base \
-  ros2 bag play /data/for_hackathon/doubleT_platform
+  metro_obstacle:dev \
+  bash -lc "source /opt/ros/humble/setup.bash && source /ws/install/setup.bash && \
+    ros2 launch metro_obstacle_detection obstacle_detection.launch.py & \
+    sleep 3 && \
+    ros2 bag play /data/for_hackathon/doubleT_obstacle \
+      --remap /sensing/lidar/hesai128/pointcloud:=/lidar_points"
 ```
 
-### 4. Собрать и запустить ноду
+> **Важно:** реальный топик лидара в бэгах — `/sensing/lidar/hesai128/pointcloud`.  
+> Необходимо использовать `--remap` для перенаправления на `/lidar_points`.
 
-```bash
-docker run --rm -it \
-  --network host \
-  -v $PWD/metro_obstacle_detection:/ws \
-  -w /ws \
-  ros:humble-ros-base \
-  bash -lc "source /opt/ros/humble/setup.bash && colcon build && source install/setup.bash && ros2 run metro_obstacle_detection lidar_listener"
-```
+Доступные бэги для тестирования:
+- `doubleT_platform` — пустой тоннель (ожидается `SAFE`)
+- `doubleT_obstacle` — тоннель с препятствием (ожидается `DANGER`)
+- `roundT_doubleT` — круглый тоннель, двойной путь
+- `roundT_pressureGate_roundT` — круглый тоннель с гермозатвором
+- `roundT_squareT_pressureGate_squareT` — комбинированный тоннель
+- `squareT_platform_squareT_switch` — квадратный тоннель с платформой
 
-*(Запускайте в отдельном терминале параллельно с `ros2 bag play`)*
+---
+
+## Топики системы
+
+| Топик | Тип | Описание |
+|-------|-----|----------|
+| `/sensing/lidar/hesai128/pointcloud` | `sensor_msgs/msg/PointCloud2` | Входные данные лидара из бэга |
+| `/lidar_points` | `sensor_msgs/msg/PointCloud2` | Вход пайплайна (после `--remap`) |
+| `/metro/points_preprocessed` | `sensor_msgs/msg/PointCloud2` | После прореживания и фильтра дальности |
+| `/metro/points_in_gauge` | `sensor_msgs/msg/PointCloud2` | После обрезки по габариту |
+| `/metro/obstacles_raw` | `std_msgs/msg/String` | Результат детекции (статус + число кластеров) |
+| `/metro/obstacle_distance` | `std_msgs/msg/Float32` | Дистанция до ближайшего препятствия (м) |
+| `/metro/safety_status` | `std_msgs/msg/String` | Итоговый статус безопасности |
+| `/metro/markers` | `visualization_msgs/msg/MarkerArray` | Маркеры для визуализации в RViz2 |
 
 ---
 
@@ -91,7 +127,7 @@ docker run --rm -it \
 
 - **Ветки:** `main` — только стабильные версии, `dev` — интеграция, `feat/*` и `fix/*` — рабочие ветки.
 - **Коммиты:** Conventional Commits (`feat:`, `fix:`, `docs:`, `exp:`, `chore:`).
-- **Код:** Python — snake_case, ROS2-ноды — snake_case, топики — snake_case с префиксом `/metro/`.
+- **Код:** топики — snake_case с префиксом `/metro/`.
 - **Эксперименты:** Все результаты фиксируются в `docs/experiments/log.md` до коммита алгоритма.
 - **Данные:** Никогда не коммитить файлы >10 МБ.
 
@@ -110,41 +146,34 @@ docker run --rm -it \
 - Колбэки не блокировать, тяжёлые вычисления выносить отдельно.
 - Память: `std::unique_ptr` / `std::shared_ptr`, строго без ручного `new`/`delete`.
 
-### Локальная разработка (без Docker)
+### Отладка в Docker
 
-Если установлен ROS 2 Humble нативно (Ubuntu 22.04):
-
-```bash
-cd metro_obstacle_detection
-colcon build --symlink-install
-source install/setup.bash
-ros2 run metro_obstacle_detection lidar_listener
-```
-
-### Отладка в Docker (try wsl)
-
-Запуск оболочки контейнера с доступом к данным и коду:
+Запуск интерактивной оболочки контейнера с доступом к данным и коду:
 
 ```bash
 docker run --rm -it \
   --network host \
   -v $PWD/data:/data \
-  -v $PWD/metro_obstacle_detection:/ws \
+  -v $PWD/ros2_ws/src:/ws/src \
   -w /ws \
-  ros:humble-ros-base \
-  bash -lc "source /opt/ros/humble/setup.bash && exec bash"
+  metro_obstacle:dev \
+  bash -lc "source /opt/ros/humble/setup.bash && source /ws/install/setup.bash && exec bash"
 ```
 
-Внутри контейнера: сборка через `colcon build`, запуск нод через `ros2 run`.
+Внутри контейнера:
+- Сборка: `colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release`
+- Запуск нод: `ros2 run metro_obstacle_detection <node_name>`
+- Список топиков: `ros2 topic list`
+- Просмотр топика: `ros2 topic echo /metro/safety_status`
 
 ### Чеклист перед пушем в dev
 
-1. `colcon build` проходит без ошибок.
-2. Нода запускается и подписывается на `/lidar_points`.
+1. `docker build` проходит без ошибок.
+2. Ноды запускаются и подписываются на `/lidar_points`.
 3. Нет закоммиченных данных, кэшей, `.pyc`, IDE-конфигов.
 4. Обновлён `docs/experiments/log.md` (если менялся алгоритм).
-4.1. Дополнен README.md с указанием добавденного/скоректированного функционала. 
-5. `git status --short` чистый (кроме намеренных изменений).
+5. Дополнен `README.md` с указанием добавленного/скорректированного функционала.
+6. `git status --short` чистый (кроме намеренных изменений).
 
 ## Контакты
 

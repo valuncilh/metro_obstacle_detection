@@ -1,352 +1,633 @@
-[INFO] [launch]: All log files can be found below /root/.ros/log/2026-09-15-20-55-56-689888-cachyos-x8664-33
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-09-15-22-18-36-093051-cachyos-x8664-33
 [INFO] [launch]: Default logging verbosity is set to INFO
 [INFO] [preprocessor-1]: process started with pid [34]
 [INFO] [gauge_filter-2]: process started with pid [36]
 [INFO] [anomaly_detector-3]: process started with pid [38]
 [INFO] [decision_maker-4]: process started with pid [40]
-[decision_maker-4] [INFO] [1789505756.744382671] [decision_maker]: Decision maker node started
-[gauge_filter-2] [INFO] [1789505756.753807447] [gauge_filter]: Gauge filter node started
-[preprocessor-1] [INFO] [1789505756.764897296] [preprocessor]: Preprocessor node started
-[anomaly_detector-3] [INFO] [1789505756.766384215] [anomaly_detector]: Anomaly detector node started
-stdin is not a terminal device. Keyboard handling disabled.[INFO] [1789505758.465481952] [rosbag2_storage]: Opened database '/data/for_hackathon/doubleT_obstacle/doubleT_obstacle_0.db3' for READ_ONLY.
-[INFO] [1789505758.465520445] [rosbag2_player]: Set rate to 1
-[INFO] [1789505758.468562721] [rosbag2_player]: Adding keyboard callbacks.
-[INFO] [1789505758.468579302] [rosbag2_player]: Press SPACE for Pause/Resume
-[INFO] [1789505758.468585213] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
-[INFO] [1789505758.468589952] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
-[INFO] [1789505758.468594400] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
-[INFO] [1789505758.468848316] [rosbag2_storage]: Opened database '/data/for_hackathon/doubleT_obstacle/doubleT_obstacle_0.db3' for READ_ONLY.
-[anomaly_detector-3] [INFO] [1789505760.642058852] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505760.642186952] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505760.683725648] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505760.683853298] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505760.720916179] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505760.721039691] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505760.755286901] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505760.755572447] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505760.792796661] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505760.792950309] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505760.831139252] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505760.831270148] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505760.861832427] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505760.861954146] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505760.891646383] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505760.891771378] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505760.921087480] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505760.921237602] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505760.951220936] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505760.951353424] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505760.981285542] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505760.981404174] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505761.011184327] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505761.011266962] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505761.099843337] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505761.099919630] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505761.196998822] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505761.197075045] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505761.296567964] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505761.296648284] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505761.397597094] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505761.397688525] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505761.490819803] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505761.490911475] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505761.593861879] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505761.593943001] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505761.793794272] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505761.793921631] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505761.898859131] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505761.898964018] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505761.995522764] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505761.995624695] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505762.197391388] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505762.197477429] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505762.310420795] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505762.310514550] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505762.400789742] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505762.400895530] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505762.590886378] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505762.590973281] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505762.696637033] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505762.696733103] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505762.796465712] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505762.796558656] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505762.893559481] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505762.893651864] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505762.994118750] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505762.994250928] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505763.091503876] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505763.091634290] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505763.195013959] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505763.195143642] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505763.291683643] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505763.291784843] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505763.494633916] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505763.494718505] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505763.595928634] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505763.596018974] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505763.698625993] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505763.698704551] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505763.796375182] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505763.796477173] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505764.198196468] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505764.198289723] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505764.405844592] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505764.405988201] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505764.510515272] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505764.510607354] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505764.603846123] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505764.604001345] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505764.698761918] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505764.698891892] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505764.799546730] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505764.799636629] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505764.991854543] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505764.991945985] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505765.099607564] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505765.099681984] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505765.301399765] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505765.301520351] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505765.393992222] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505765.394103491] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505765.500933340] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505765.501022528] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505765.596348281] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505765.596487182] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505765.698524352] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505765.698636292] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505765.794064718] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505765.794150790] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505765.893705925] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505765.893827974] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505765.994655957] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505765.994762016] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505766.098119202] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505766.098227736] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505766.201033047] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505766.201138816] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505766.299847614] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505766.299946269] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505766.399732628] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505766.399829179] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505766.513696277] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505766.513847481] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505766.606558140] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505766.606683805] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505766.714236811] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505766.714414013] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505766.815694325] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505766.815802207] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505766.895606480] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505766.895753215] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505766.989968145] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505766.990119739] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505767.093504618] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505767.093594857] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505767.193300635] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505767.193423626] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505767.294794427] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505767.294888964] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505767.402080422] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505767.402170000] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505767.507888635] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505767.508086316] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505767.603275964] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505767.603395228] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505767.700421630] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505767.700531226] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505767.795193245] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505767.795314382] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505767.896308296] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505767.896412061] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505767.991330169] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505767.991438362] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505768.092762917] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505768.092892349] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505768.193603343] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505768.193710444] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505768.292511064] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505768.292601414] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505768.506007968] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505768.506142821] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505768.600403376] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505768.600515987] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505768.716499154] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505768.716642082] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505768.917165203] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505768.917274037] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505768.999682434] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505768.999768816] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505769.096081691] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505769.096165208] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505769.196591196] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505769.196680504] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505769.292583831] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505769.292656527] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505769.393475393] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505769.393562767] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505769.593743726] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505769.593831400] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505769.693331042] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505769.693419237] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505769.797519497] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505769.797619445] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505769.897802388] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505769.897899921] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505770.095962748] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505770.096074357] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505770.198095177] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505770.198183713] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505770.293395663] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505770.293478859] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505770.391464872] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505770.391553788] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505770.494535681] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505770.494634857] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505770.596423892] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505770.596572040] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505770.807979775] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505770.808104640] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505770.918929071] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505770.919019009] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505771.005717202] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505771.005803875] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505771.115898647] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505771.116002121] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505771.205562502] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505771.205723464] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505771.299588387] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505771.299697492] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505771.398763620] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505771.398849111] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505771.501029921] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505771.501107306] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505771.594110033] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505771.594184823] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505771.698894867] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505771.698979706] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505771.792822177] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505771.792908589] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505771.893890621] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505771.893975330] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505772.006402126] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505772.006491965] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505772.106853934] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505772.106937701] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505772.203702633] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505772.203784798] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505772.301045069] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505772.301151669] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505772.504578867] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505772.504703370] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505772.595692430] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505772.595792508] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505772.696076561] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505772.696265455] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505772.794850451] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505772.794958233] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505772.904949302] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505772.905081540] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505773.001895945] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505773.001977788] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505773.122733816] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505773.122834646] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505773.208714964] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505773.208798260] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505773.313641193] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505773.313743154] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505773.402730741] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505773.402804429] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505773.494053757] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505773.494182498] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505773.598529922] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505773.598619049] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505773.901206732] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505773.901331496] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505773.994017459] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505773.994118348] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505774.097612972] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505774.097727978] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505774.196009164] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505774.196093953] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505774.297546477] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505774.297633350] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505774.391610875] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505774.391696546] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505774.495706607] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505774.495799611] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505774.594475868] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505774.594567550] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505774.700388678] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505774.700489006] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505774.804107252] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505774.804189326] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505774.904737374] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505774.904816943] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505774.997639101] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505774.997726184] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505775.411972613] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505775.412081317] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505775.507639637] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505775.507735296] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505775.606184488] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505775.606287521] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505775.801057181] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505775.801161156] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505775.904329689] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505775.904434165] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505775.999107986] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505775.999186874] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505776.097918635] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505776.098018402] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505776.195218010] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505776.195325983] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505776.293292489] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505776.293407525] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505776.393516078] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505776.393618700] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505776.495761159] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505776.495904758] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505776.598391502] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505776.598516516] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505776.697236185] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505776.697345360] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505776.799941419] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505776.800050964] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505776.896218356] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505776.896294329] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505777.003536231] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505777.003617904] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505777.103645866] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505777.103737608] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505777.232766112] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505777.232870668] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505777.298020316] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505777.298097260] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505777.394042786] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505777.394129739] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505777.495118954] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505777.495200918] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505777.601711539] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505777.601850078] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505777.796346977] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505777.796429562] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505777.895814639] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505777.895918293] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505778.002669084] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505778.002747942] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505778.098356526] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505778.098435895] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505778.196323233] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505778.196398664] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505778.395298711] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505778.395374864] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505778.492142953] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505778.492246757] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505778.591954389] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505778.592056521] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505778.697185440] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505778.697300295] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505778.799158390] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505778.799266443] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
-[anomaly_detector-3] [INFO] [1789505778.905483994] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6 m)
-[decision_maker-4] [INFO] [1789505778.905568903] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6 m)
+[decision_maker-4] [INFO] [1789510716.144798112] [decision_maker]: Decision maker node started
+[gauge_filter-2] [INFO] [1789510716.151398313] [gauge_filter]: Gauge filter node started
+[preprocessor-1] [INFO] [1789510716.164226248] [preprocessor]: Preprocessor node started
+[anomaly_detector-3] [INFO] [1789510716.165315608] [anomaly_detector]: Anomaly detector node started
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1789510717.881834914] [rosbag2_storage]: Opened database '/data/for_hackathon/doubleT_obstacle/doubleT_obstacle_0.db3' for READ_ONLY.
+[INFO] [1789510717.881874879] [rosbag2_player]: Set rate to 1
+[INFO] [1789510717.884942825] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1789510717.884965497] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1789510717.884971118] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1789510717.884975917] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1789510717.884982319] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1789510717.885295505] [rosbag2_storage]: Opened database '/data/for_hackathon/doubleT_obstacle/doubleT_obstacle_0.db3' for READ_ONLY.
+[anomaly_detector-3] [INFO] [1789510720.062597907] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=303, box=(0.63 x 3.01 x 1.39), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510720.062674160] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.22 x 0.31 x 0.16)
+[anomaly_detector-3] [INFO] [1789510720.062807891] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510720.062971257] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510720.120449164] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.2), points=596, box=(0.44 x 3.99 x 1.61), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510720.120598033] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510720.120771267] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510720.163847643] [anomaly_detector]:   Cluster: pos=(6.7, -0.7, 0.8), points=370, box=(0.63 x 3.00 x 1.39), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510720.163938834] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.14 x 0.27 x 0.16)
+[anomaly_detector-3] [INFO] [1789510720.164029573] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510720.164191727] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510720.207921787] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=480, box=(0.63 x 3.01 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510720.208023277] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.10 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510720.208109138] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510720.208285618] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510720.248859707] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=263, box=(0.64 x 2.98 x 1.37), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510720.248942502] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.12 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510720.249017703] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510720.249176090] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510720.287409375] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.1), points=423, box=(0.63 x 3.99 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510720.287561690] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510720.287702494] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510720.325495244] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=489, box=(0.63 x 3.08 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510720.325578590] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.10 x 0.30 x 0.16)
+[anomaly_detector-3] [INFO] [1789510720.325652148] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510720.325810875] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510720.359280709] [anomaly_detector]:   Cluster: pos=(6.6, -0.7, 0.9), points=321, box=(0.63 x 3.03 x 1.41), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510720.359458081] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510720.359698131] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510720.398534114] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=284, box=(0.64 x 2.98 x 1.37), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510720.398604877] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.22 x 0.32 x 0.16)
+[anomaly_detector-3] [INFO] [1789510720.398671291] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510720.398831361] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510720.438397332] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=484, box=(0.63 x 3.01 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510720.438447396] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.09 x 0.30 x 0.16)
+[anomaly_detector-3] [INFO] [1789510720.438499674] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510720.438746296] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510720.477398095] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.2), points=593, box=(0.43 x 3.99 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510720.477590695] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510720.477738051] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510720.512492962] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=335, box=(0.63 x 3.99 x 1.63), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510720.512662199] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510720.512841234] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510720.547243745] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 1.0), points=295, box=(0.85 x 3.02 x 1.39), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510720.547288729] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.21 x 0.32 x 0.16)
+[anomaly_detector-3] [INFO] [1789510720.547334915] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510720.547423101] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510720.621677818] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=392, box=(0.63 x 3.95 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510720.621761415] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510720.621868014] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510720.719976316] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=400, box=(0.64 x 3.95 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510720.720085741] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510720.720197481] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510720.822400171] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=483, box=(0.63 x 3.07 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510720.822453821] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.08 x 0.30 x 0.16)
+[anomaly_detector-3] [INFO] [1789510720.822525455] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510720.822644338] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510720.916319737] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=316, box=(0.73 x 2.99 x 1.37), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510720.916405698] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510720.916524551] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510721.123449159] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=365, box=(0.63 x 3.99 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510721.123571859] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510721.123711370] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510721.217982355] [anomaly_detector]:   Cluster: pos=(6.7, -0.5, 0.8), points=412, box=(0.63 x 3.01 x 1.39), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510721.218060802] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.27 x 0.32 x 0.17)
+[anomaly_detector-3] [INFO] [1789510721.218135292] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510721.218281556] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510721.322647236] [anomaly_detector]:   Cluster: pos=(6.6, -0.7, 0.9), points=296, box=(0.62 x 3.00 x 1.40), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510721.322693854] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=8, box=(0.11 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510721.322744298] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510721.322865535] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510721.423053833] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=490, box=(0.62 x 3.02 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510721.423098106] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.10 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510721.423143220] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510721.423272162] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510721.530567710] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.1), points=723, box=(0.49 x 3.97 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510721.530656576] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510721.530759268] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510721.735237815] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=271, box=(0.63 x 2.98 x 1.34), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510721.735282459] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.15 x 0.30 x 0.16)
+[anomaly_detector-3] [INFO] [1789510721.735328185] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510721.735471894] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510721.825762083] [anomaly_detector]:   Cluster: pos=(6.7, -0.6, 1.0), points=395, box=(0.62 x 3.99 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510721.825843145] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510721.825968410] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510722.013912080] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=279, box=(0.60 x 2.99 x 1.38), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510722.013988633] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.12 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510722.014035831] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510722.014170614] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510722.119745770] [anomaly_detector]:   Cluster: pos=(6.7, -0.5, 0.8), points=426, box=(0.63 x 3.00 x 1.39), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510722.119791115] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.11 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510722.119836390] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510722.119950704] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510722.221201471] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=488, box=(0.61 x 3.04 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510722.221244351] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.13 x 0.30 x 0.16)
+[anomaly_detector-3] [INFO] [1789510722.221288744] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510722.221396857] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510722.318399999] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=334, box=(0.62 x 3.00 x 1.39), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510722.318488264] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510722.318622005] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510722.416373488] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=435, box=(0.62 x 3.00 x 1.40), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510722.416419344] [anomaly_detector]:   Rejected structure: dist=6.6 m, points=12, box=(0.16 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510722.416472353] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510722.416576458] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[preprocessor-1] [INFO] [1789510722.512622287] [preprocessor]: Distance histogram: 5-25m:3719 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:3719)
+[anomaly_detector-3] [INFO] [1789510722.515098755] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=400, box=(0.62 x 3.98 x 1.64), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510722.515171081] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510722.515274154] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510722.616056504] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=493, box=(0.62 x 3.04 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510722.616099334] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.12 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510722.616177691] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510722.616300380] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510722.719039475] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=402, box=(0.61 x 3.97 x 1.64), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510722.719122390] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510722.719214413] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510722.821417624] [anomaly_detector]:   Cluster: pos=(6.7, -0.7, 0.9), points=271, box=(0.62 x 3.00 x 1.32), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510722.821494528] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.11 x 0.27 x 0.16)
+[anomaly_detector-3] [INFO] [1789510722.821546144] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510722.821678222] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510722.920336804] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=268, box=(0.63 x 2.98 x 1.40), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510722.920386828] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.14 x 0.27 x 0.17)
+[anomaly_detector-3] [INFO] [1789510722.920437202] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510722.920555744] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510723.017460121] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=483, box=(0.63 x 3.04 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510723.017516918] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.10 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510723.017572311] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510723.017702686] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510723.119477434] [anomaly_detector]:   Cluster: pos=(6.7, -0.6, 0.9), points=320, box=(0.63 x 3.00 x 1.39), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510723.119522088] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.11 x 0.28 x 0.17)
+[anomaly_detector-3] [INFO] [1789510723.119568655] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510723.119698819] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510723.221838140] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=481, box=(0.61 x 3.04 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510723.221917909] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.12 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510723.221991177] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510723.222162417] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510723.319954918] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=504, box=(0.63 x 3.03 x 1.39), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510723.319999311] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.12 x 0.28 x 0.17)
+[anomaly_detector-3] [INFO] [1789510723.320044135] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510723.320173567] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510723.418879869] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=513, box=(0.62 x 3.03 x 1.37), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510723.418924833] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=8, box=(0.09 x 0.23 x 0.17)
+[anomaly_detector-3] [INFO] [1789510723.418968555] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510723.419076377] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510723.525347016] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.2), points=524, box=(0.63 x 3.97 x 1.61), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510723.525459576] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510723.525623253] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510723.728978797] [anomaly_detector]:   Cluster: pos=(6.7, -0.6, 0.8), points=393, box=(0.63 x 3.05 x 1.62), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510723.729022939] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.12 x 0.28 x 0.17)
+[anomaly_detector-3] [INFO] [1789510723.729063906] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510723.729180374] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510723.827118307] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=472, box=(0.62 x 3.07 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510723.827161187] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.11 x 0.31 x 0.16)
+[anomaly_detector-3] [INFO] [1789510723.827203086] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510723.827319564] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510723.934611626] [anomaly_detector]:   Cluster: pos=(6.7, -0.5, 1.0), points=401, box=(0.63 x 3.97 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510723.934694471] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510723.934807583] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510724.027761521] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=506, box=(0.62 x 3.99 x 1.60), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510724.027839147] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510724.027955965] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510724.124736020] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=446, box=(0.63 x 3.01 x 1.39), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510724.124795230] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.13 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510724.124853429] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510724.125002368] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510724.221900534] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 1.0), points=327, box=(0.62 x 3.01 x 1.40), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510724.221979161] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510724.222111669] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510724.322635134] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=491, box=(0.62 x 3.06 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510724.322698303] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.12 x 0.28 x 0.17)
+[anomaly_detector-3] [INFO] [1789510724.322763174] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510724.322918535] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510724.418457866] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 0.8), points=467, box=(0.61 x 3.99 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510724.418540510] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510724.418646128] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510724.523995702] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=556, box=(0.63 x 3.05 x 1.42), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510724.524041388] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=7, box=(0.04 x 0.22 x 0.16)
+[anomaly_detector-3] [INFO] [1789510724.524084659] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510724.524173735] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510724.621375539] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=388, box=(0.62 x 3.99 x 1.61), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510724.621456852] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510724.621574542] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510724.723741585] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.0), points=496, box=(0.61 x 3.99 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510724.723822036] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510724.723936731] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510724.818293887] [anomaly_detector]:   Cluster: pos=(6.7, -0.7, 0.8), points=348, box=(0.64 x 3.01 x 1.40), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510724.818336187] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.12 x 0.29 x 0.15)
+[anomaly_detector-3] [INFO] [1789510724.818378025] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510724.818525161] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510724.925025449] [anomaly_detector]:   Cluster: pos=(6.7, -0.5, 1.0), points=410, box=(0.62 x 3.98 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510724.925108264] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510724.925213201] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510725.018731316] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 1.0), points=306, box=(0.62 x 2.98 x 1.40), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510725.018776080] [anomaly_detector]:   Rejected structure: dist=6.6 m, points=10, box=(0.27 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510725.018819100] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510725.018924277] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510725.314129462] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 1.0), points=279, box=(0.62 x 3.00 x 1.40), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510725.314210323] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510725.314316883] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510725.521404677] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.2), points=483, box=(0.62 x 3.97 x 1.64), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510725.521528819] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510725.521668811] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510725.620704400] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=332, box=(0.62 x 3.97 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510725.620853208] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510725.620998631] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510725.722246903] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=517, box=(0.62 x 3.04 x 1.37), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510725.722328687] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.11 x 0.21 x 0.16)
+[anomaly_detector-3] [INFO] [1789510725.722373400] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510725.722512010] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510725.824059473] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=268, box=(0.63 x 2.98 x 1.34), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510725.824111029] [anomaly_detector]:   Rejected structure: dist=6.6 m, points=11, box=(0.22 x 0.31 x 0.16)
+[anomaly_detector-3] [INFO] [1789510725.824161865] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510725.824295274] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[preprocessor-1] [INFO] [1789510725.934670931] [preprocessor]: Distance histogram: 5-25m:3163 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:3163)
+[anomaly_detector-3] [INFO] [1789510725.936829544] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=309, box=(0.60 x 3.04 x 1.62), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510725.936888274] [anomaly_detector]:   Rejected structure: dist=6.6 m, points=12, box=(0.21 x 0.30 x 0.16)
+[anomaly_detector-3] [INFO] [1789510725.936951713] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510725.937084511] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510726.034279693] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=529, box=(0.61 x 3.99 x 1.61), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510726.034407282] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510726.034573864] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510726.137600167] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=343, box=(0.61 x 2.99 x 1.41), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510726.137665950] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.21 x 0.31 x 0.17)
+[anomaly_detector-3] [INFO] [1789510726.137726233] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510726.137872757] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510726.239657915] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=400, box=(0.63 x 3.99 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510726.239741342] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510726.239848562] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510726.319556413] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=455, box=(0.62 x 3.01 x 1.40), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510726.319621435] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=8, box=(0.09 x 0.29 x 0.17)
+[anomaly_detector-3] [INFO] [1789510726.319674624] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510726.319786935] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510726.414202982] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=448, box=(0.62 x 3.06 x 1.39), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510726.414254037] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.13 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510726.414297068] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510726.414391535] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510726.517876727] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=495, box=(0.62 x 3.03 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510726.517921991] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.11 x 0.27 x 0.17)
+[anomaly_detector-3] [INFO] [1789510726.517963930] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510726.518094945] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510726.614343665] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=275, box=(0.63 x 2.98 x 1.33), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510726.614442820] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510726.614577262] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510726.719265467] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=499, box=(0.62 x 3.06 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510726.719308708] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.11 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510726.719350747] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510726.719471854] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510726.820438359] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=453, box=(0.62 x 3.01 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510726.820488282] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.11 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510726.820531273] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510726.820645346] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510726.919722042] [anomaly_detector]:   Cluster: pos=(6.7, -0.7, 0.8), points=315, box=(0.62 x 3.01 x 1.38), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510726.919766355] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.12 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510726.919808754] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510726.919906838] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510727.122806588] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.1), points=346, box=(0.61 x 3.97 x 1.64), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510727.122895785] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510727.123027221] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510727.223396117] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=480, box=(0.63 x 3.02 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510727.223441231] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.13 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510727.223494201] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510727.223625507] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510727.517125467] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=486, box=(0.62 x 3.04 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510727.517170602] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.08 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510727.517214514] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510727.517329399] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510727.621828440] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.1), points=739, box=(0.49 x 3.99 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510727.621912738] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510727.622011723] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510727.720053631] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=554, box=(0.39 x 3.99 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510727.720138910] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510727.720255539] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510727.829851395] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=343, box=(0.63 x 3.99 x 1.63), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510727.829934571] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510727.830046260] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510727.930583431] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=456, box=(0.62 x 3.05 x 1.40), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510727.930627654] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.12 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510727.930675764] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510727.930807791] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510728.023812705] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=453, box=(0.63 x 3.01 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510728.023857489] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.12 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510728.023903826] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510728.024031726] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510728.141121597] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=452, box=(0.62 x 3.01 x 1.40), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510728.141165189] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=13, box=(0.13 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510728.141210644] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510728.141366937] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510728.227724080] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 1.0), points=302, box=(0.63 x 3.01 x 1.41), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510728.227769265] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.12 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510728.227815411] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510728.227940245] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510728.341180617] [anomaly_detector]:   Cluster: pos=(6.7, -0.7, 0.8), points=371, box=(0.61 x 3.01 x 1.38), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510728.341223688] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.13 x 0.26 x 0.16)
+[anomaly_detector-3] [INFO] [1789510728.341270475] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510728.341398876] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510728.424312691] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=312, box=(0.62 x 3.02 x 1.62), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510728.424397389] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510728.424560064] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510728.520019475] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=426, box=(0.62 x 3.01 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510728.520063788] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.11 x 0.29 x 0.17)
+[anomaly_detector-3] [INFO] [1789510728.520114383] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510728.520225661] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510728.623377259] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.2), points=566, box=(0.62 x 3.99 x 1.62), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510728.623470864] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510728.623581060] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510728.714063600] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=296, box=(0.61 x 2.98 x 1.39), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510728.714108855] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.12 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510728.714156775] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510728.714269476] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510728.817183278] [anomaly_detector]:   Cluster: pos=(6.7, -0.6, 0.8), points=373, box=(0.63 x 3.00 x 1.38), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510728.817227681] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.12 x 0.30 x 0.16)
+[anomaly_detector-3] [INFO] [1789510728.817273346] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510728.817384154] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510728.915981963] [anomaly_detector]:   Cluster: pos=(6.7, -0.5, 0.8), points=440, box=(0.61 x 3.01 x 1.40), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510728.916025895] [anomaly_detector]:   Rejected structure: dist=6.6 m, points=11, box=(0.21 x 0.30 x 0.17)
+[anomaly_detector-3] [INFO] [1789510728.916069787] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510728.916178070] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510729.019730077] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=497, box=(0.63 x 3.04 x 1.40), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510729.019846736] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.12 x 0.30 x 0.16)
+[anomaly_detector-3] [INFO] [1789510729.019909703] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510729.020067409] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510729.120681163] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.2), points=599, box=(0.44 x 3.97 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510729.120760642] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510729.120891767] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[preprocessor-1] [INFO] [1789510729.217602873] [preprocessor]: Distance histogram: 5-25m:3594 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:3594)
+[anomaly_detector-3] [INFO] [1789510729.220276029] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=471, box=(0.61 x 3.07 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510729.220311125] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.11 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510729.220356229] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510729.220495049] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510729.319643750] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.0), points=434, box=(0.62 x 3.97 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510729.319756591] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510729.319904919] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510729.417538572] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=391, box=(0.63 x 3.99 x 1.60), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510729.417639200] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510729.417774834] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510729.521089677] [anomaly_detector]:   Cluster: pos=(6.7, -0.6, 0.8), points=362, box=(0.62 x 3.01 x 1.40), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510729.521134081] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.21 x 0.31 x 0.16)
+[anomaly_detector-3] [INFO] [1789510729.521180628] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510729.521303047] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510729.619107931] [anomaly_detector]:   Cluster: pos=(6.6, -0.7, 0.9), points=302, box=(0.62 x 3.01 x 1.40), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510729.619154237] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.10 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510729.619205804] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510729.619336519] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510729.721350716] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=523, box=(0.63 x 3.03 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510729.721396401] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.11 x 0.30 x 0.16)
+[anomaly_detector-3] [INFO] [1789510729.721440654] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510729.721560920] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510729.817717446] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=471, box=(0.62 x 3.06 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510729.817779633] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.10 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510729.817841058] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510729.817981591] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510729.923588647] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=506, box=(0.62 x 3.02 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510729.923651284] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=7, box=(0.09 x 0.24 x 0.16)
+[anomaly_detector-3] [INFO] [1789510729.923708471] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510729.923872629] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510730.019833880] [anomaly_detector]:   Cluster: pos=(6.7, -0.6, 0.8), points=405, box=(0.62 x 3.10 x 1.51), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510730.019952792] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510730.020114565] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510730.128128890] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.2), points=646, box=(0.45 x 3.97 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510730.128414344] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510730.128733873] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510730.226888752] [anomaly_detector]:   Cluster: pos=(6.6, -0.7, 0.9), points=286, box=(0.63 x 3.00 x 1.38), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510730.226934147] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.12 x 0.31 x 0.16)
+[anomaly_detector-3] [INFO] [1789510730.226977157] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510730.227094577] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510730.341085495] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.2), points=608, box=(0.44 x 3.99 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510730.341200390] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510730.341311979] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510730.432353997] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.2), points=569, box=(0.43 x 3.98 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510730.432437303] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510730.432527672] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510730.536197039] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=307, box=(0.62 x 3.01 x 1.39), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510730.536242164] [anomaly_detector]:   Rejected structure: dist=6.6 m, points=13, box=(0.22 x 0.31 x 0.16)
+[anomaly_detector-3] [INFO] [1789510730.536283601] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510730.536367679] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510730.630337841] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=507, box=(0.62 x 3.06 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510730.630380240] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.10 x 0.30 x 0.16)
+[anomaly_detector-3] [INFO] [1789510730.630421778] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510730.630519030] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510730.723777569] [anomaly_detector]:   Cluster: pos=(6.7, -0.7, 0.8), points=266, box=(0.61 x 3.00 x 1.36), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510730.723823024] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.14 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510730.723864632] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510730.723942708] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510730.818762712] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=346, box=(0.63 x 3.99 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510730.818845176] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510730.818977534] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510730.921646227] [anomaly_detector]:   Cluster: pos=(6.7, -0.6, 0.9), points=355, box=(0.63 x 3.00 x 1.40), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510730.921818780] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510730.921914059] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510731.018678855] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=481, box=(0.62 x 3.04 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510731.018724069] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.12 x 0.29 x 0.17)
+[anomaly_detector-3] [INFO] [1789510731.018793439] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510731.018909697] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510731.119834363] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=251, box=(0.61 x 3.01 x 1.37), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510731.119884547] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.12 x 0.27 x 0.17)
+[anomaly_detector-3] [INFO] [1789510731.119927237] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510731.120032545] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510731.218898115] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=504, box=(0.63 x 3.03 x 1.37), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510731.218941015] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=8, box=(0.09 x 0.22 x 0.17)
+[anomaly_detector-3] [INFO] [1789510731.218982783] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510731.219090175] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510731.317919256] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=502, box=(0.61 x 3.03 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510731.317976133] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.12 x 0.29 x 0.17)
+[anomaly_detector-3] [INFO] [1789510731.318047537] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510731.318187880] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510731.427061543] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=361, box=(0.61 x 3.95 x 1.60), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510731.427157423] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510731.427290502] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510731.531255974] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.2), points=634, box=(0.57 x 3.97 x 1.61), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510731.531342476] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510731.531430320] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510731.629297270] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.1), points=705, box=(0.50 x 3.97 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510731.629377551] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510731.629515990] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510731.721670421] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=378, box=(0.62 x 3.98 x 1.60), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510731.721749569] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510731.721884031] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510731.922835322] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=301, box=(0.62 x 3.01 x 1.39), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510731.922879114] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.14 x 0.28 x 0.17)
+[anomaly_detector-3] [INFO] [1789510731.922920672] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510731.923054252] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510732.017325478] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 1.0), points=324, box=(0.62 x 3.02 x 1.51), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510732.017414405] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510732.017534359] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510732.116628367] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=282, box=(0.62 x 2.98 x 1.33), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510732.116723245] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510732.116808986] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510732.216684097] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=356, box=(0.61 x 3.99 x 1.59), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510732.216791097] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510732.216921050] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[preprocessor-1] [INFO] [1789510732.323959768] [preprocessor]: Distance histogram: 5-25m:3397 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:3397)
+[anomaly_detector-3] [INFO] [1789510732.325916673] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 1.0), points=310, box=(0.62 x 2.98 x 1.38), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510732.325993787] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510732.326106057] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510732.424271316] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=327, box=(0.62 x 3.97 x 1.59), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510732.424352037] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510732.424460691] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510732.537030687] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 1.0), points=302, box=(0.63 x 3.04 x 1.62), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510732.537074059] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.12 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510732.537115166] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510732.537300282] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510732.634736315] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.2), points=537, box=(0.41 x 3.98 x 1.61), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510732.634816746] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510732.634923836] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510732.742076387] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=446, box=(0.62 x 3.97 x 1.60), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510732.742161927] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510732.742263287] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510732.823895091] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=312, box=(0.61 x 3.00 x 1.38), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510732.823940817] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.12 x 0.31 x 0.16)
+[anomaly_detector-3] [INFO] [1789510732.823992994] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510732.824090367] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510732.916469148] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=477, box=(0.62 x 3.05 x 1.39), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510732.916513030] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.12 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510732.916557904] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510732.916650598] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510733.017792331] [anomaly_detector]:   Cluster: pos=(6.8, -0.6, 0.7), points=405, box=(0.61 x 3.01 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510733.017836634] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.11 x 0.29 x 0.17)
+[anomaly_detector-3] [INFO] [1789510733.017878993] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510733.017990873] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510733.121876525] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.1), points=639, box=(0.46 x 3.97 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510733.121992843] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510733.122104592] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510733.219568367] [anomaly_detector]:   Cluster: pos=(6.7, -0.7, 0.8), points=346, box=(0.60 x 3.01 x 1.39), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510733.219642135] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.18 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510733.219696527] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510733.219819197] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510733.322818609] [anomaly_detector]:   Cluster: pos=(6.7, -0.6, 0.8), points=394, box=(0.62 x 3.01 x 1.40), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510733.322888761] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=13, box=(0.12 x 0.27 x 0.17)
+[anomaly_detector-3] [INFO] [1789510733.322938734] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510733.323024174] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510733.525775737] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.2), points=655, box=(0.45 x 3.97 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510733.525855146] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510733.525938262] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510733.621077202] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=380, box=(0.63 x 3.98 x 1.61), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510733.621158905] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510733.621278479] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510733.818753380] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.0), points=352, box=(0.62 x 3.97 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510733.818864548] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510733.819057259] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510733.925387379] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.2), points=644, box=(0.45 x 3.97 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510733.925475224] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510733.925610788] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510734.130989070] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=506, box=(0.62 x 3.04 x 1.39), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510734.131048712] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.12 x 0.29 x 0.17)
+[anomaly_detector-3] [INFO] [1789510734.131106390] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510734.131191089] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510734.227771078] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=488, box=(0.60 x 3.04 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510734.227845257] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.13 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510734.227909898] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510734.228000759] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510734.331080812] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 0.9), points=275, box=(0.63 x 2.98 x 1.35), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510734.331145042] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.11 x 0.29 x 0.17)
+[anomaly_detector-3] [INFO] [1789510734.331195577] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510734.331282169] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510734.423573226] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=461, box=(0.62 x 3.05 x 1.40), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510734.423616387] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.16 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510734.423659177] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510734.423772249] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510734.839465009] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=455, box=(0.61 x 3.01 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510734.839509412] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.11 x 0.30 x 0.17)
+[anomaly_detector-3] [INFO] [1789510734.839551561] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510734.839635779] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510734.937748699] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.0), points=384, box=(0.62 x 3.98 x 1.62), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510734.937933215] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510734.938130725] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510735.036932005] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=485, box=(0.61 x 3.03 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510735.036977570] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.12 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510735.037022234] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510735.037131478] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510735.121316414] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=336, box=(0.62 x 3.02 x 1.35), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510735.121395552] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510735.121526357] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510735.225283468] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=498, box=(0.62 x 3.04 x 1.39), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510735.225334214] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.13 x 0.29 x 0.17)
+[anomaly_detector-3] [INFO] [1789510735.225378506] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510735.225515473] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510735.327679351] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.2), points=535, box=(0.62 x 3.97 x 1.64), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510735.327758308] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510735.327864678] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510735.418579984] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=368, box=(0.60 x 3.97 x 1.60), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510735.418661707] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510735.418768106] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510735.519722939] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 1.0), points=356, box=(0.58 x 3.04 x 1.62), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510735.519803079] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510735.519907886] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510735.715565954] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=295, box=(0.58 x 2.98 x 1.40), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510735.715646565] [anomaly_detector]:   Rejected structure: dist=6.6 m, points=16, box=(0.22 x 0.30 x 0.17)
+[anomaly_detector-3] [INFO] [1789510735.715697710] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510735.715843203] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510735.924714888] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=536, box=(0.58 x 3.06 x 1.42), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510735.924760033] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=8, box=(0.04 x 0.21 x 0.17)
+[anomaly_detector-3] [INFO] [1789510735.924804496] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510735.924914883] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510736.022996435] [anomaly_detector]:   Cluster: pos=(6.7, -0.5, 0.8), points=452, box=(0.60 x 3.03 x 1.39), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510736.023040507] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.12 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510736.023081263] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510736.023170991] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[preprocessor-1] [INFO] [1789510736.119991862] [preprocessor]: Distance histogram: 5-25m:3511 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:3511)
+[anomaly_detector-3] [INFO] [1789510736.123896305] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=510, box=(0.62 x 3.03 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510736.123941089] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=8, box=(0.08 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510736.123993126] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510736.124070621] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510736.326482929] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=501, box=(0.62 x 3.03 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510736.326533484] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.11 x 0.29 x 0.17)
+[anomaly_detector-3] [INFO] [1789510736.326575292] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510736.326678495] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510736.428008842] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=366, box=(0.60 x 3.97 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510736.428088852] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510736.428180914] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510736.531161922] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=554, box=(0.63 x 3.99 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510736.531241601] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510736.531345015] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510736.654835564] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=283, box=(0.62 x 3.02 x 1.59), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510736.654878184] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.23 x 0.31 x 0.16)
+[anomaly_detector-3] [INFO] [1789510736.654920253] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510736.655025369] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510736.720815474] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=471, box=(0.62 x 3.04 x 1.40), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510736.720859437] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.13 x 0.30 x 0.16)
+[anomaly_detector-3] [INFO] [1789510736.720900734] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510736.720991394] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510736.820885721] [anomaly_detector]:   Cluster: pos=(6.8, -0.4, 0.7), points=506, box=(0.62 x 3.03 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510736.820956353] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=7, box=(0.06 x 0.21 x 0.16)
+[anomaly_detector-3] [INFO] [1789510736.821005245] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510736.821135308] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510736.913969683] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=325, box=(0.63 x 3.01 x 1.39), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510736.914049162] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510736.914162715] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510737.019938807] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=496, box=(0.63 x 3.97 x 1.65), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510737.020017785] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510737.020104528] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510737.122199957] [anomaly_detector]:   Cluster: pos=(6.7, -0.6, 0.8), points=391, box=(0.63 x 3.01 x 1.40), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510737.122243759] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.13 x 0.27 x 0.17)
+[anomaly_detector-3] [INFO] [1789510737.122282111] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510737.122367791] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510737.218705948] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=470, box=(0.62 x 3.01 x 1.39), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510737.218749420] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.12 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510737.218790937] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510737.218900593] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510737.318054353] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=469, box=(0.60 x 3.03 x 1.40), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510737.318097524] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=12, box=(0.12 x 0.29 x 0.17)
+[anomaly_detector-3] [INFO] [1789510737.318139653] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510737.318252965] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510737.425489773] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.2), points=617, box=(0.46 x 3.97 x 1.60), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510737.425569743] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510737.425657027] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510737.519303192] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=458, box=(0.61 x 3.01 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510737.519377811] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.14 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510737.519437583] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510737.519555655] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510737.619097041] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.1), points=484, box=(0.61 x 3.97 x 1.60), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510737.619178283] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510737.619287066] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510737.717838568] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=359, box=(0.63 x 3.02 x 1.62), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510737.717926153] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510737.718018726] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510737.826599842] [anomaly_detector]:   Cluster: pos=(6.7, -0.4, 1.1), points=783, box=(0.48 x 3.99 x 1.65), dist=6.7 m
+[anomaly_detector-3] [INFO] [1789510737.826681395] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.7 m)
+[decision_maker-4] [INFO] [1789510737.826768087] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.7 m)
+[anomaly_detector-3] [INFO] [1789510737.917861982] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=482, box=(0.62 x 3.00 x 1.38), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510737.917905243] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=10, box=(0.10 x 0.28 x 0.16)
+[anomaly_detector-3] [INFO] [1789510737.917947172] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510737.918052389] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510738.013571762] [anomaly_detector]:   Cluster: pos=(6.6, -0.6, 0.9), points=292, box=(0.62 x 2.98 x 1.39), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510738.013617358] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=9, box=(0.11 x 0.29 x 0.17)
+[anomaly_detector-3] [INFO] [1789510738.013658835] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510738.013762349] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510738.125339697] [anomaly_detector]:   Cluster: pos=(6.6, -0.4, 1.2), points=525, box=(0.63 x 3.97 x 1.62), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510738.125421400] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510738.125524653] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)
+[anomaly_detector-3] [INFO] [1789510738.223741739] [anomaly_detector]:   Cluster: pos=(6.8, -0.5, 0.7), points=468, box=(0.61 x 3.07 x 1.39), dist=6.8 m
+[anomaly_detector-3] [INFO] [1789510738.223819986] [anomaly_detector]:   Rejected structure: dist=6.5 m, points=11, box=(0.18 x 0.29 x 0.16)
+[anomaly_detector-3] [INFO] [1789510738.223884767] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.8 m)
+[decision_maker-4] [INFO] [1789510738.224023306] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.8 m)
+[anomaly_detector-3] [INFO] [1789510738.328606305] [anomaly_detector]:   Cluster: pos=(6.6, -0.5, 1.0), points=378, box=(0.61 x 3.99 x 1.61), dist=6.6 m
+[anomaly_detector-3] [INFO] [1789510738.328726730] [anomaly_detector]: Detection: obstacle_detected (clusters: 1, distance: 6.6 m)
+[decision_maker-4] [INFO] [1789510738.328831877] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 1, distance: 6.6 m)

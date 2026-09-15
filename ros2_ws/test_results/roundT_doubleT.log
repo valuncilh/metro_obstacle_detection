@@ -1,874 +1,503 @@
-[INFO] [launch]: All log files can be found below /root/.ros/log/2026-09-15-20-56-57-000646-cachyos-x8664-33
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-09-15-22-19-36-458978-cachyos-x8664-33
 [INFO] [launch]: Default logging verbosity is set to INFO
 [INFO] [preprocessor-1]: process started with pid [34]
 [INFO] [gauge_filter-2]: process started with pid [36]
 [INFO] [anomaly_detector-3]: process started with pid [38]
 [INFO] [decision_maker-4]: process started with pid [40]
-[decision_maker-4] [INFO] [1789505817.050354469] [decision_maker]: Decision maker node started
-[gauge_filter-2] [INFO] [1789505817.058724036] [gauge_filter]: Gauge filter node started
-[preprocessor-1] [INFO] [1789505817.071458670] [preprocessor]: Preprocessor node started
-[anomaly_detector-3] [INFO] [1789505817.072620158] [anomaly_detector]: Anomaly detector node started
-stdin is not a terminal device. Keyboard handling disabled.[INFO] [1789505818.805653141] [rosbag2_storage]: Opened database '/data/for_hackathon/roundT_doubleT/roundT_doubleT_0.db3' for READ_ONLY.
-[INFO] [1789505818.805700500] [rosbag2_player]: Set rate to 1
-[INFO] [1789505818.809522558] [rosbag2_player]: Adding keyboard callbacks.
-[INFO] [1789505818.809540091] [rosbag2_player]: Press SPACE for Pause/Resume
-[INFO] [1789505818.809549228] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
-[INFO] [1789505818.809554749] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
-[INFO] [1789505818.809559157] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
-[INFO] [1789505818.809844071] [rosbag2_storage]: Opened database '/data/for_hackathon/roundT_doubleT/roundT_doubleT_0.db3' for READ_ONLY.
-[anomaly_detector-3] [INFO] [1789505820.732978686] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.733160387] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505820.745064983] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.745201830] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.754549350] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.754669075] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.761374939] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.761509592] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.768686943] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.768850891] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.775687010] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.775852381] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.785391070] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.785536223] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.793073720] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.793180471] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.799209913] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.799347783] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.805477023] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.805623428] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.811782154] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.811923029] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.818095450] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.818235944] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.892130997] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.892281590] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505820.994437561] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505820.994605327] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505821.101720418] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505821.101844411] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505821.302940388] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505821.303054001] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505821.401366588] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505821.401526719] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505821.496768895] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505821.496864785] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505821.598762490] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505821.598870924] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505821.698798396] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505821.698896711] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505821.794368458] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505821.794522167] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505821.903657085] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505821.903771039] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505821.999992675] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505822.000105137] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505822.101400679] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505822.101530293] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505822.192152244] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505822.192284082] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505822.394905504] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505822.395027584] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505822.491466899] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505822.491565224] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505822.593347711] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505822.593469721] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505822.709085900] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505822.709196628] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505822.803493196] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505822.803621056] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505822.891345571] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505822.891457842] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505822.993843003] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505822.993964571] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505823.097109539] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505823.097223544] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505823.189737350] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505823.189861784] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505823.290085581] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505823.290218772] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505823.394193509] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505823.394364280] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505823.495191733] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505823.495412648] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505823.599171580] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505823.599291004] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505823.695839764] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505823.695974518] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505823.803266721] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505823.803394641] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505823.911010423] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505823.911120369] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505823.995243725] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505823.995380171] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505824.089355995] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505824.089486380] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505824.189467410] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505824.189642620] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505824.296732542] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505824.296833612] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505824.394373785] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505824.394501204] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505824.492571634] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505824.492677042] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505824.594803024] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505824.594902130] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505824.692816747] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505824.692914551] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505824.793077052] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505824.793161611] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505824.902087695] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505824.902172735] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505824.997833124] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505824.997918635] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505825.094405487] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505825.094572702] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505825.190045698] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505825.190138964] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505825.289784744] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505825.289866908] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505825.396005491] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505825.396107754] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505825.491462448] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505825.491546646] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505825.601205105] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505825.601301456] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505825.686417537] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505825.686536711] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505825.792571519] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505825.792706713] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505825.900141844] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505825.900241230] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505826.006164209] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505826.006261441] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505826.098577424] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505826.098686419] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505826.209216816] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505826.209470242] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505826.304409675] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505826.304562643] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505826.400971969] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505826.401120358] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505826.498854774] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505826.498952638] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505826.601158660] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505826.601305445] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505826.695672062] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505826.695771399] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505826.801997135] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505826.802145945] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505826.903245877] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505826.903379538] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505827.006899840] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505827.007033521] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505827.201083696] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505827.201206928] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505827.297222904] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505827.297332250] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505827.404037857] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505827.404154517] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505827.497672868] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505827.497781893] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505827.602047104] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505827.602164765] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505827.805665944] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505827.805787362] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505827.906104803] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505827.906276897] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505827.993720571] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505827.993871855] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505828.202913346] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505828.203068558] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505828.302349510] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505828.302460318] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505828.412557670] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505828.412642269] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505828.498602123] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505828.498693265] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505828.592379461] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505828.592489277] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505828.690530860] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505828.690672146] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505828.794572330] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505828.794659694] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505828.894315290] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505828.894425016] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505829.007997991] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505829.008111845] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505829.200618857] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505829.200765312] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505829.397209515] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505829.397299183] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505829.506820732] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505829.506941028] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505829.594152264] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505829.594272260] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505829.692968041] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505829.693084911] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505829.798396016] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505829.798530689] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505829.897391100] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505829.897507870] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505830.006401799] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505830.006538235] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505830.088025813] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505830.088142061] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505830.293057514] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505830.293199251] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505830.398472895] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505830.398572151] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505830.497990781] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505830.498086351] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505830.600909499] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505830.601038601] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505830.691778820] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505830.691890179] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505830.792586119] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505830.792667692] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505830.890343787] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505830.890428306] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505830.992430361] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505830.992596693] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505831.101722006] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505831.101828556] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505831.297227201] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505831.297340344] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505831.394069507] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505831.394182900] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505831.498423602] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505831.498513421] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505831.600907472] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505831.600984537] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505831.789862476] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505831.789946975] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505831.900387520] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505831.900480264] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505831.996337719] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505831.996417509] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505832.095531856] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505832.095725800] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505832.195368159] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505832.195468517] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505832.302932457] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505832.303026974] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505832.400757630] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505832.400860142] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505832.497873019] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505832.498000438] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505832.597601720] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505832.597673354] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505832.694077567] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505832.694224804] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505832.899593095] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505832.899741734] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505832.994334953] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505832.994440541] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505833.095106223] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505833.095202885] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505833.198800957] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505833.198900384] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505833.291178611] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505833.291262228] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505833.392089002] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505833.392196905] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505833.493381331] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505833.493506787] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505833.588940846] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505833.589056774] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505833.691289670] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505833.691434142] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505833.791467725] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505833.791547535] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505833.894100263] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505833.894194420] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505833.988434995] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505833.988550933] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505834.097677496] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505834.097770030] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505834.197806658] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505834.197885266] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505834.292120891] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505834.292203567] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505834.396669370] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505834.396800156] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505834.496632730] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505834.496733490] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505834.601743876] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505834.601854244] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505834.699719711] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505834.699837703] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505834.792735784] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505834.792836353] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505834.894390774] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505834.894505320] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505834.994887177] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505834.995021319] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505835.093131616] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505835.093234650] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505835.195466944] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505835.195595816] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505835.290326932] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505835.290515446] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505835.397406777] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505835.397505052] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505835.493574864] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505835.493664843] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505835.592601454] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505835.592705910] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505835.691967952] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505835.692076686] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505835.793246213] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505835.793341151] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505835.894564049] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505835.894652164] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505835.993346589] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505835.993434404] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505836.096974897] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505836.097073191] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505836.196029478] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505836.196115299] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505836.291251786] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505836.291336255] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505836.493804059] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505836.493895030] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505836.591521598] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505836.591630983] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505836.694866372] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505836.694998971] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505836.797439767] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505836.797542921] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505836.894042149] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505836.894134833] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505836.989461368] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505836.989545205] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505837.101267955] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505837.101378954] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505837.191338862] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505837.191502048] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505837.389610899] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505837.389699525] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505837.493635420] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505837.493732342] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505837.588810489] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505837.588921137] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505837.691974924] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505837.692083438] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505837.795099785] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505837.795216103] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505837.893883566] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505837.893978114] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505837.996173488] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505837.996258066] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505838.092349467] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505838.092464714] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505838.193225841] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505838.193315369] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505838.391655874] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505838.391780899] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505838.493700353] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505838.493785543] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505838.593871902] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505838.593951783] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505838.691610209] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505838.691708062] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505838.791780195] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505838.791886575] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505838.895122613] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505838.895208605] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505838.996473609] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505838.996629202] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505839.102322709] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505839.102491656] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505839.198392428] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505839.198504048] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505839.291811235] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505839.291922013] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505839.400330072] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505839.400437614] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505839.500187049] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505839.500299110] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505839.595652423] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505839.595752290] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505839.695148021] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505839.695348878] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505839.799141322] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505839.799232674] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505839.896440592] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505839.896549908] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505840.091634301] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505840.091735731] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505840.195850851] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505840.195939768] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505840.303940290] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505840.304011584] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505840.499778439] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505840.499856706] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505840.599518586] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505840.599610699] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505840.701347589] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505840.701475930] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505840.794126242] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505840.794211462] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505841.094349257] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505841.094437493] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505841.300215772] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505841.300304219] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505841.398519449] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505841.398606412] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505841.498584536] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505841.498667181] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505841.597215768] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505841.597326396] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505841.701366815] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505841.701480288] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505841.797017736] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505841.797121360] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505841.893762602] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505841.893861188] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505841.998115568] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505841.998208704] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505842.095249646] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505842.095358431] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505842.194180952] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505842.194279417] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505842.295979266] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505842.296082380] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505842.393734140] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505842.393834679] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505842.497597515] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505842.497683677] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505842.597506458] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505842.597591588] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505842.794474679] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505842.794575268] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505842.895652256] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505842.895743998] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505842.997574212] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505842.997666295] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505843.096345336] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505843.096479198] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505843.196643580] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505843.196737747] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505843.296730587] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505843.296816579] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505843.495804704] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505843.495889683] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505843.595545450] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505843.595635519] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505843.694725222] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505843.694810843] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505843.802473347] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505843.802561753] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505843.900105170] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505843.900198566] [decision_maker]: Safety status: SAFE
+[decision_maker-4] [INFO] [1789510776.511088770] [decision_maker]: Decision maker node started
+[gauge_filter-2] [INFO] [1789510776.519728020] [gauge_filter]: Gauge filter node started
+[preprocessor-1] [INFO] [1789510776.531848379] [preprocessor]: Preprocessor node started
+[anomaly_detector-3] [INFO] [1789510776.532920347] [anomaly_detector]: Anomaly detector node started
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1789510778.256360503] [rosbag2_storage]: Opened database '/data/for_hackathon/roundT_doubleT/roundT_doubleT_0.db3' for READ_ONLY.
+[INFO] [1789510778.256407170] [rosbag2_player]: Set rate to 1
+[INFO] [1789510778.259826754] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1789510778.259847614] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1789510778.259899741] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1789510778.259905231] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1789510778.259910241] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1789510778.260340727] [rosbag2_storage]: Opened database '/data/for_hackathon/roundT_doubleT/roundT_doubleT_0.db3' for READ_ONLY.
+[anomaly_detector-3] [INFO] [1789510780.182086091] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.182249847] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.193530314] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.193690634] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.201990268] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.202084385] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.209823699] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.209916914] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.217020969] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.217136415] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.225137560] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.225246023] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.232474801] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.232585379] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.240322629] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.240423809] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.246712998] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.246822092] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.252839331] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.252915704] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.341781367] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.341897555] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.444396771] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.444498441] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.553403755] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.553516907] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.647916114] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.648025358] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.753378399] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.753512591] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.850468525] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.850576838] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510780.950366329] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510780.950479341] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510781.053282898] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510781.053393074] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510781.149179869] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510781.149291398] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510781.245391329] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510781.245516764] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510781.355637525] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510781.355743964] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510781.449542956] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510781.449693247] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510781.549825671] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510781.549933964] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510781.641712652] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510781.641823079] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510781.746530050] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510781.746630829] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510781.845807653] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510781.845916056] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510781.943811560] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510781.943904434] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510782.045441438] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510782.045597641] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510782.158068894] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510782.158177307] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510782.251545201] [preprocessor]: Distance histogram: 5-25m:0 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:0)
+[anomaly_detector-3] [INFO] [1789510782.252022425] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510782.252174490] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510782.341843978] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510782.341962741] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510782.446068386] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510782.446217044] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510782.545888434] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510782.546012126] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510782.639563875] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510782.639676035] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510782.743533405] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510782.743657267] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510782.843323167] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510782.843436179] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510782.946572448] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510782.946654281] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510783.049552806] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510783.049663032] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510783.147281758] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510783.147418735] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510783.250196062] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510783.250282123] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510783.360041657] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510783.360130984] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510783.441846606] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510783.441938017] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510783.542665926] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510783.542746347] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510783.639516033] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510783.639600240] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510783.745257602] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510783.745346037] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510783.844424667] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510783.844518904] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510783.943775397] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510783.943877528] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510784.047872316] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510784.047951785] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510784.141967973] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510784.142054716] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510784.246011803] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510784.246096431] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510784.349437755] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510784.349527082] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510784.446623059] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510784.446709371] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510784.544540605] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510784.544628299] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510784.640013913] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510784.640100835] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510784.740297640] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510784.740380876] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510784.848931786] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510784.849025151] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510784.944209918] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510784.944302582] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510785.052338147] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510785.052436882] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510785.139030239] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510785.139110219] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510785.244474581] [preprocessor]: Distance histogram: 5-25m:0 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:0)
+[anomaly_detector-3] [INFO] [1789510785.244905578] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510785.245005626] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510785.349611969] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510785.349751119] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510785.457906429] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510785.457998942] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510785.549267275] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510785.549359347] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510785.658441543] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510785.658535799] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510785.755319842] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510785.755407486] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510785.849809467] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510785.849894036] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510785.949793934] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510785.949887018] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510786.052108324] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510786.052211878] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510786.147596019] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510786.147692209] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510786.252719701] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510786.252832953] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510786.355506346] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510786.355604580] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510786.457004097] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510786.457089907] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510786.547055540] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510786.547172609] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510786.649385429] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510786.649537554] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510786.745990537] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510786.746120180] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510786.852081941] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510786.852194462] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510786.945636055] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510786.945805282] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510787.053236255] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510787.053347914] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510787.150973052] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510787.151118184] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510787.253336524] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510787.253474492] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510787.355468192] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510787.355583959] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510787.445265800] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510787.445406594] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510787.536785454] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510787.536917180] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510787.652316006] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510787.652417917] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510787.747779305] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510787.747890824] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510787.862643169] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510787.862740782] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510787.946761360] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510787.946867289] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510788.046308568] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510788.046425898] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510788.141043644] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510788.141125387] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510788.244210240] [preprocessor]: Distance histogram: 5-25m:0 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:0)
+[anomaly_detector-3] [INFO] [1789510788.244620548] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510788.244712220] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510788.346145460] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510788.346242492] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510788.459283782] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510788.459438692] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510788.544856528] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510788.545015325] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510788.651878855] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510788.651987178] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510788.768905139] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510788.769030865] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510788.849388984] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510788.849510572] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510788.961162069] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510788.961274650] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510789.044469673] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510789.044550754] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510789.145354415] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510789.145489138] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510789.250005041] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510789.250106020] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510789.350106527] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510789.350237332] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510789.458212033] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510789.458319535] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510789.540564418] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510789.540722924] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510789.637061854] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510789.637159927] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510789.743225794] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510789.743314921] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510789.849679667] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510789.849790054] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510789.949312184] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510789.949394889] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510790.052821062] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510790.052911141] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510790.141970456] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510790.142103505] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510790.241435410] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510790.241544574] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510790.341147036] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510790.341262652] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510790.443279205] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510790.443365236] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510790.548047681] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510790.548179208] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510790.654866167] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510790.654950184] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510790.747140764] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510790.747227767] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510790.845420108] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510790.845521578] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510790.951819018] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510790.951904247] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510791.052352222] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510791.052443653] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510791.151512575] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510791.151595350] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510791.241070254] [preprocessor]: Distance histogram: 5-25m:60 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:60)
+[anomaly_detector-3] [INFO] [1789510791.241558228] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510791.241679425] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510791.354405776] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510791.354493270] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510791.448337386] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510791.448428728] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510791.547422349] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510791.547508340] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510791.643777869] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510791.643850184] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510791.757172391] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510791.757287466] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510791.854941148] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510791.855041976] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510791.952097638] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510791.952232010] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510792.051900555] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510792.052005141] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510792.148590892] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510792.148694706] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510792.252356981] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510792.252433414] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510792.352056584] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510792.352163665] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510792.445315385] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510792.445418648] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510792.548601345] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510792.548675604] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510792.647171483] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510792.647270629] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510792.742738476] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510792.742892996] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510792.843934993] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510792.844019521] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510792.945484571] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510792.945574890] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510793.041942724] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510793.042030338] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510793.145049698] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510793.145140819] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510793.246286330] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510793.246388562] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510793.348163111] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510793.348270442] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510793.548190594] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510793.548286684] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510793.650567562] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510793.650707734] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510793.746585680] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510793.746681840] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510793.850436057] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510793.850546284] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510793.949099931] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510793.949195099] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510794.055650996] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510794.055729263] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510794.155492836] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510794.155630664] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510794.245714027] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510794.245810568] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510794.349322872] [preprocessor]: Distance histogram: 5-25m:3402 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:3402)
+[anomaly_detector-3] [INFO] [1789510794.349938054] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510794.350055925] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510794.446125931] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510794.446246326] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510794.550408467] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510794.550544692] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510794.648554120] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510794.648695264] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510794.743256554] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510794.743334350] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510794.945989945] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510794.946105261] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510795.048217754] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510795.048294938] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510795.148048152] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510795.148128893] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510795.248512427] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510795.248593439] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510795.347884678] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510795.347964958] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510795.444812881] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510795.444901637] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510795.550914885] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510795.550991138] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510795.648991308] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510795.649105221] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510795.743986861] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510795.744061671] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510795.845146479] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510795.845232651] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510795.945314921] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510795.945401372] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510796.044331895] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510796.044410903] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510796.150078674] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510796.150155118] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510796.249793356] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510796.249876251] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510796.350032870] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510796.350120975] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510796.443344099] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510796.443494230] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510796.551373493] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510796.551484110] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510796.643298676] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510796.643406077] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510796.742676006] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510796.742782415] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510796.845615687] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510796.845702700] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510796.948154007] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510796.948235209] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510797.043251181] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510797.043332884] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510797.144125845] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510797.144215142] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510797.247594016] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510797.247713500] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510797.347701023] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510797.347790079] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510797.445764582] [preprocessor]: Distance histogram: 5-25m:2172 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:2172)
+[anomaly_detector-3] [INFO] [1789510797.446193445] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510797.446282241] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510797.549266376] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510797.549346737] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510797.646032866] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510797.646111393] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510797.746554058] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510797.746684803] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510797.848296518] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510797.848379002] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510797.947889141] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510797.947972857] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510798.047744856] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510798.047844733] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510798.146840549] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510798.146957418] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510798.244603796] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510798.244700797] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510798.348187443] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510798.348292069] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510798.447766280] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510798.447871928] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510798.554687869] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510798.554787827] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510798.653200520] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510798.653296820] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510798.747031753] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510798.747171865] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510798.853117506] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510798.853217443] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510798.953083919] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510798.953205317] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510799.048004412] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510799.048104429] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510799.147894132] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510799.147976175] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510799.250039085] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510799.250137289] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510799.348224132] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510799.348309972] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510799.448085017] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510799.448168614] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510799.548007488] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510799.548091756] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510799.648399989] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510799.648505978] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510799.753776515] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510799.753851806] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510799.852310084] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510799.852387429] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510799.956753482] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510799.956866734] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510800.053258913] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510800.053347078] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510800.154473043] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510800.154555628] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510800.249086851] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510800.249163645] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510800.350320889] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510800.350404746] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510800.447826944] [preprocessor]: Distance histogram: 5-25m:4262 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:4262)
+[anomaly_detector-3] [INFO] [1789510800.448356766] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510800.448461031] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510800.549993678] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510800.550067436] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510800.646538443] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510800.646623813] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510800.752004836] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510800.752099353] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510800.851716703] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510800.851789830] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510800.951798111] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510800.951876358] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510801.049136603] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510801.049219488] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510801.155533940] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510801.155606295] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510801.250005612] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510801.250108315] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510801.344428964] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510801.344512951] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510801.450539103] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510801.450634883] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510801.548870204] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510801.548949072] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510801.645904976] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510801.645987060] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510801.748028029] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510801.748114851] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510801.844992029] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510801.845085173] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510801.949084148] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510801.949200567] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510802.052830741] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510802.052905161] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510802.152058120] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510802.152139513] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510802.247780746] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510802.247861116] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510802.348017505] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510802.348130937] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510802.447033368] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510802.447325435] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510802.549073875] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510802.549180014] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510802.648039775] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510802.648147987] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510802.751903687] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510802.752005498] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510802.847969515] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510802.848096233] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510802.945685113] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510802.945764802] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510803.046080139] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510803.046173163] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510803.148360345] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510803.148467546] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510803.255780188] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510803.255911744] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510803.352678435] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510803.352754998] [decision_maker]: Safety status: SAFE

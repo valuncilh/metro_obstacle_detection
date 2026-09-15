@@ -9,9 +9,11 @@
 #include <pcl/segmentation/extract_clusters.h>
 #include <pcl/search/kdtree.h>
 #include <pcl/common/centroid.h>
+#include <pcl/common/common.h>
 
 #include <algorithm>
 #include <cmath>
+#include <cstdio>
 #include <limits>
 
 class AnomalyDetector : public rclcpp::Node {
@@ -31,9 +33,6 @@ public:
     }
 
 private:
-    // Требуемое число точек в кластере в зависимости от дистанции.
-    // Плотность облака падает как 1/D^2, поэтому порог тоже должен падать.
-    // k = 900 подобрано по объекту из doubleT_obstacle (130 точек на 6.6 м).
     static int requiredPoints(float distance) {
         return std::max(kMinClusterPoints,
                         static_cast<int>(kDensityCoeff / (distance * distance)));
@@ -44,16 +43,13 @@ private:
         pcl::fromROSMsg(*msg, *cloud);
 
         if (cloud->size() < 50) {
-            publishResult("no_obstacle", 0, -1.0f, msg->header);
+            publishResult("no_obstacle", 0, -1.0f);
             return;
         }
 
         pcl::search::KdTree<pcl::PointXYZI>::Ptr tree(new pcl::search::KdTree<pcl::PointXYZI>);
         tree->setInputCloud(cloud);
 
-        // Извлекаем все кластеры с низким порогом — отбраковка будет ниже, по дистанции.
-        // Допуск 0.6 м: на 200 м соседние точки разъезжаются до ~0.52 м,
-        // при 0.5 м дальний объект распадался бы на фрагменты.
         std::vector<pcl::PointIndices> cluster_indices;
         pcl::EuclideanClusterExtraction<pcl::PointXYZI> ec;
         ec.setClusterTolerance(0.6);
@@ -79,13 +75,28 @@ private:
             pcl::compute3DCentroid(*cluster, centroid);
             const float dist = centroid[0];
 
-            // Адаптивная отбраковка: сколько точек должен иметь объект на этой дистанции
-            const int required = requiredPoints(dist);
+            pcl::PointXYZI min_pt, max_pt;
+            pcl::getMinMax3D(*cluster, min_pt, max_pt);
+            const float dx = max_pt.x - min_pt.x;
+            const float dy = max_pt.y - min_pt.y;
+            const float dz = max_pt.z - min_pt.z;
             const int actual = static_cast<int>(cluster->size());
 
+            const bool too_flat   = dz < kMinObstacleHeight;
+            const bool too_wide   = dx > kMaxObstacleLength || dy > kMaxObstacleWidth;
+            const bool is_structure = too_flat || too_wide;
+
+            if (is_structure) {
+                RCLCPP_INFO(get_logger(),
+                    "  Rejected structure: dist=%.1f m, points=%d, box=(%.2f x %.2f x %.2f)",
+                    dist, actual, dx, dy, dz);
+                continue;
+            }
+
+            const int required = requiredPoints(dist);
             if (actual < required) {
                 RCLCPP_DEBUG(get_logger(),
-                    "Rejected cluster: dist=%.1f m, points=%d < required=%d",
+                    "Rejected small: dist=%.1f m, points=%d < required=%d",
                     dist, actual, required);
                 continue;
             }
@@ -94,8 +105,8 @@ private:
             min_distance = std::min(min_distance, dist);
 
             RCLCPP_INFO(get_logger(),
-                "  Cluster: pos=(%.1f, %.1f, %.1f), points=%d (required>=%d), dist=%.1f m",
-                centroid[0], centroid[1], centroid[2], actual, required, dist);
+                "  Cluster: pos=(%.1f, %.1f, %.1f), points=%d, box=(%.2f x %.2f x %.2f), dist=%.1f m",
+                centroid[0], centroid[1], centroid[2], actual, dx, dy, dz, dist);
 
             visualization_msgs::msg::Marker marker;
             marker.header = msg->header;
@@ -119,14 +130,13 @@ private:
         pub_markers_->publish(markers);
 
         if (kept_count == 0) {
-            publishResult("no_obstacle", 0, -1.0f, msg->header);
+            publishResult("no_obstacle", 0, -1.0f);
         } else {
-            publishResult("obstacle_detected", kept_count, min_distance, msg->header);
+            publishResult("obstacle_detected", kept_count, min_distance);
         }
     }
 
-    void publishResult(const std::string& status, size_t count, float distance,
-                       const std_msgs::msg::Header& /*header*/) {
+    void publishResult(const std::string& status, size_t count, float distance) {
         std_msgs::msg::String status_msg;
         if (distance >= 0) {
             char buf[128];
@@ -149,6 +159,9 @@ private:
 
     static constexpr int kMinClusterPoints = 6;
     static constexpr float kDensityCoeff = 900.0f;
+    static constexpr float kMinObstacleHeight = 0.30f;
+    static constexpr float kMaxObstacleLength = 5.0f;
+    static constexpr float kMaxObstacleWidth  = 4.2f;
 
     rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr sub_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_status_;

@@ -1,667 +1,672 @@
-[INFO] [launch]: All log files can be found below /root/.ros/log/2026-09-15-20-56-19-847860-cachyos-x8664-33
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-09-15-22-18-59-273998-cachyos-x8664-33
 [INFO] [launch]: Default logging verbosity is set to INFO
 [INFO] [preprocessor-1]: process started with pid [34]
 [INFO] [gauge_filter-2]: process started with pid [36]
 [INFO] [anomaly_detector-3]: process started with pid [38]
 [INFO] [decision_maker-4]: process started with pid [40]
-[decision_maker-4] [INFO] [1789505779.900103412] [decision_maker]: Decision maker node started
-[gauge_filter-2] [INFO] [1789505779.909206736] [gauge_filter]: Gauge filter node started
-[anomaly_detector-3] [INFO] [1789505779.922144821] [anomaly_detector]: Anomaly detector node started
-[preprocessor-1] [INFO] [1789505779.922199534] [preprocessor]: Preprocessor node started
-stdin is not a terminal device. Keyboard handling disabled.[INFO] [1789505781.638242101] [rosbag2_storage]: Opened database '/data/for_hackathon/doubleT_platform/doubleT_platform_0.db3' for READ_ONLY.
-[INFO] [1789505781.638278059] [rosbag2_player]: Set rate to 1
-[INFO] [1789505781.641628693] [rosbag2_player]: Adding keyboard callbacks.
-[INFO] [1789505781.641649592] [rosbag2_player]: Press SPACE for Pause/Resume
-[INFO] [1789505781.641654962] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
-[INFO] [1789505781.641660092] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
-[INFO] [1789505781.641669309] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
-[INFO] [1789505781.641944756] [rosbag2_storage]: Opened database '/data/for_hackathon/doubleT_platform/doubleT_platform_0.db3' for READ_ONLY.
-[anomaly_detector-3] [INFO] [1789505783.178219920] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.178343491] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.196962552] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.197054123] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.211683891] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.211802233] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.224845276] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.224979227] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.236927376] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.237073289] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.248172656] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.248283775] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.260714719] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.260790862] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.349884016] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.349996216] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.451163746] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.451275165] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.550780828] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.550903929] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.654805446] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.654925231] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.752273407] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.752385136] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.854953844] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.855072156] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505783.955510628] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505783.955725992] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505784.051382025] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505784.051522469] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505784.159174320] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505784.159309724] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505784.254287735] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505784.254418931] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505784.348584038] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505784.348721886] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505784.447056903] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505784.447222654] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505784.551825617] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505784.551995616] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505784.855129744] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505784.855262723] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505784.954776141] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505784.954907788] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505785.142764082] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505785.142861956] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505785.344252945] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505785.344373330] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505785.544108794] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505785.544243697] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505785.647579584] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505785.647698196] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505785.852587636] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505785.852746123] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505786.044275046] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505786.044433924] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505786.145769519] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505786.145875438] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505786.246610917] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505786.246732986] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505786.346526839] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505786.346618711] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505786.443953914] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505786.444067617] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505786.542932558] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505786.543099912] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505786.644878858] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505786.644983364] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505786.751281186] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505786.751596377] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505786.849013423] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505786.849127166] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505786.954020103] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505786.954117656] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505787.047586697] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505787.047711561] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505787.346873760] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505787.347027278] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505787.449534470] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505787.449686675] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505787.542510336] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505787.542639218] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505787.643318302] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505787.643426915] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505787.747229407] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505787.747380901] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505787.949480278] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505787.949612677] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505788.049774600] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505788.049913130] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505788.144936947] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505788.145069245] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505788.249671296] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505788.249820416] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505788.353195757] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505788.353309530] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505788.447356916] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505788.447472172] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505788.546860275] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505788.546973076] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505788.642532207] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505788.642675406] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505788.745575495] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505788.745685341] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505789.148688574] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505789.148822755] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505789.251519523] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505789.251640931] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505789.347901938] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505789.348033846] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505789.448697069] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505789.448808378] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505789.544890931] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505789.545027247] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505789.645245476] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505789.645367495] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505789.847750033] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505789.847867544] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505790.045070347] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505790.045203898] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505790.154272276] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505790.154383815] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505790.248839126] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505790.248955624] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505790.345698536] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505790.345815104] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505790.446219904] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505790.446324690] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505790.545733281] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505790.545847425] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505790.646490972] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505790.646612690] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505790.748949413] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505790.749056173] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505790.852240345] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505790.852340844] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505790.948560904] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505790.948723569] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505791.046298401] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505791.046430859] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505791.147170577] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505791.147306171] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505791.248907154] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505791.249044832] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505791.344335459] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505791.344476314] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModelPlane::optimizeModelCoefficients] Not enough inliers found to optimize model coefficients (3)! Returning the same coefficients.
-[anomaly_detector-3] [INFO] [1789505791.446381076] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505791.446536037] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505791.654439650] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505791.654541661] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 1!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505791.747137254] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505791.747247361] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 1!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505791.951714158] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505791.951823263] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 1!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505792.048580321] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505792.048690357] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 1!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505792.148766480] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505792.148887487] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505792.246816813] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505792.246906401] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505792.347396400] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505792.347542093] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505792.443960576] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505792.444066836] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505792.543678217] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505792.543877320] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505792.643296070] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505792.643411436] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505792.852249793] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505792.852362334] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505792.950782701] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505792.950884302] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505793.047695962] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505793.047797292] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505793.251289632] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505793.251383518] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505793.353626044] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505793.353764083] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505793.443286212] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505793.443420544] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505793.544964189] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505793.545080577] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505793.648162477] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505793.648274367] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505793.746937079] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505793.747101166] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505793.853472837] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505793.853582803] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505793.947423621] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505793.947578512] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505794.048041991] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505794.048187975] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505794.144791074] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505794.144897684] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505794.247640428] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505794.247752939] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505794.345207946] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505794.345344322] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505794.445045241] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505794.445176727] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505794.550875345] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505794.551053609] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505794.745942553] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505794.746086033] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505794.842711484] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505794.842793638] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505794.947831095] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505794.947944448] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505795.048107955] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505795.048258197] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505795.147660576] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505795.147772966] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505795.253115246] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505795.253225132] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505795.450501864] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505795.450612482] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505795.551619430] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505795.551746930] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505795.652566186] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505795.652703824] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505795.742906119] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505795.743040130] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505795.846485221] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505795.846572936] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505795.948917974] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505795.949013092] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505796.048010362] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505796.048120278] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505796.147654384] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505796.147801300] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505796.243607604] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505796.243733571] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505796.352328019] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505796.352477840] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505796.450460958] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505796.450596592] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505796.546398579] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505796.546548380] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModelPlane::optimizeModelCoefficients] Not enough inliers found to optimize model coefficients (3)! Returning the same coefficients.
-[anomaly_detector-3] [INFO] [1789505796.649290543] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505796.649402753] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 2!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505796.744676529] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505796.744819377] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505796.850723911] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505796.850822776] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505796.948183256] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505796.948298622] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505797.148197052] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505797.148305635] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505797.248503607] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505797.248640944] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505797.345106555] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505797.345249994] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505797.446033304] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505797.446169138] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505797.551374932] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505797.551505807] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 0!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505797.756892730] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505797.756999801] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModel::getSamples] Can not select 0 unique points out of 2!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] No samples could be selected!
-[preprocessor-1] [pcl::RandomSampleConsensus::computeModel] RANSAC found no model.
-[preprocessor-1] [pcl::SACSegmentation::segment] Error segmenting the model! No solution found.
-[anomaly_detector-3] [INFO] [1789505797.844333416] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505797.844443592] [decision_maker]: Safety status: SAFE
-[preprocessor-1] [pcl::SampleConsensusModelPlane::optimizeModelCoefficients] Not enough inliers found to optimize model coefficients (3)! Returning the same coefficients.
-[anomaly_detector-3] [INFO] [1789505797.943097037] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505797.943309535] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505798.147719296] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505798.147809465] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505798.245035462] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505798.245171447] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505798.347340736] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505798.347437858] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505798.452415804] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505798.452566617] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505798.543678938] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505798.543810054] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505798.648821713] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505798.648957859] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505798.749304408] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505798.749404737] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505798.846803438] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505798.846914176] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505798.951263092] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505798.951375673] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505799.050012747] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505799.050172948] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505799.145226801] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505799.145364399] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505799.248752524] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505799.248888499] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505799.342706645] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505799.342830918] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505799.443312731] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505799.443504611] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505799.543956489] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505799.544069430] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505799.651499365] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505799.651650629] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505799.744697278] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505799.744822944] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505799.846396395] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505799.846546226] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505799.944583364] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505799.944721844] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505800.043410014] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505800.043612774] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505800.144963658] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505800.145076649] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505800.245439380] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505800.245577318] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505800.345117446] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505800.345228424] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505800.442531045] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505800.442653545] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505800.546501842] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505800.546637527] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505800.642784691] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505800.642923050] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505800.745390428] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505800.745551049] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505800.849054249] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505800.849198680] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505800.948589678] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505800.948726795] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505801.044122590] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505801.044222307] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505801.149064689] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505801.149181578] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505801.252538584] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505801.252669951] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505801.450051870] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505801.450171415] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505801.548421783] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505801.548523794] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505801.647885147] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505801.648021623] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505801.747536753] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505801.747701893] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505801.845887039] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505801.845997226] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505801.948528684] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505801.948642647] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505802.050129666] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505802.050221699] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505802.144373120] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505802.144504416] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505802.253895399] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505802.254001197] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505802.348862860] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505802.349002683] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505802.448304082] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505802.448414269] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505802.555747823] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505802.555877506] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505802.642563286] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505802.642692889] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505802.751523280] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505802.751635170] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505802.852187265] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505802.852310907] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505802.944690174] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505802.944822483] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505803.054506214] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505803.054638853] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505803.145081128] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505803.145216061] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505803.249100907] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505803.249238355] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505803.348233630] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505803.348355138] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505803.455502623] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505803.455620685] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505803.553737192] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505803.553839294] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505803.651471032] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505803.651567323] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505803.748231637] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505803.748337665] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505803.850137070] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505803.850247177] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505803.951053509] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505803.951142566] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505804.051688129] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505804.051784340] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505804.149329836] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505804.149424253] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505804.250683816] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505804.250764417] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505804.357825911] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505804.357927080] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505804.446913004] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505804.446996260] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505804.556231200] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505804.556324715] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505804.645514952] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505804.645600883] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505804.747963133] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505804.748110910] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505804.851250218] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505804.851393106] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505804.948704063] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505804.948795003] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505805.146583626] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505805.146782649] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505805.245736377] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505805.245856262] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505805.354098280] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505805.354205711] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505805.444380003] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505805.444493837] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505805.548679908] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505805.548802608] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505805.655850466] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505805.655933321] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505805.751190276] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505805.751297707] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505805.850118606] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505805.850228031] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505805.952252488] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505805.952355752] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505806.052185422] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505806.052279529] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505806.148217721] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505806.148309863] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505806.356500184] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505806.356615370] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505806.451190646] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505806.451277800] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505806.548931650] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505806.549025886] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505806.747603439] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505806.747690221] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505806.847417901] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505806.847531935] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505806.951954479] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505806.952087829] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505807.046523764] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505807.046644801] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505807.148413899] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505807.148528393] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505807.246081354] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505807.246206208] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505807.351298639] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505807.351521717] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505807.448126109] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505807.448242928] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505807.549593210] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505807.549716482] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505807.648584559] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505807.648704524] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505807.749943277] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505807.750069804] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505807.846669647] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505807.846783681] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505807.950127402] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505807.950241166] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505808.045831826] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505808.045994471] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505808.144705413] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505808.144810831] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505808.250666133] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505808.250783813] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505808.347927767] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505808.348042512] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505808.444438112] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505808.444543209] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505808.547541603] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505808.547660025] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505808.648486605] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505808.648622109] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505808.750806947] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505808.750935147] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505808.848539694] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505808.848672013] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505808.947572801] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505808.947702965] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505809.045887210] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505809.046093527] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505809.147599291] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505809.147710499] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505809.249051504] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505809.249141333] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505809.353135674] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505809.353253636] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505809.452144295] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505809.452241297] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505809.552522304] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505809.552654281] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505809.746938922] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505809.747031286] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505809.851763010] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505809.851841157] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505809.950142030] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505809.950248820] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505810.046842922] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505810.046923694] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505810.145241439] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505810.145427618] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505810.247335686] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505810.247434572] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505810.356736889] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505810.356867363] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505810.451863058] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505810.451993562] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505810.552867441] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505810.552977678] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505810.655795653] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505810.655938261] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505810.752504070] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505810.752668609] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505810.956338331] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505810.956492921] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505811.054354691] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505811.054492319] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505811.146432643] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505811.146541487] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505811.251070672] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505811.251240580] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505811.355502223] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505811.355671470] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505811.456894925] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505811.456977550] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505811.544803447] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505811.544891082] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505811.669251420] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505811.669345256] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505811.762087704] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505811.762204784] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505811.842465673] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505811.842573074] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505811.956423090] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505811.956510654] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505812.054545198] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505812.054678568] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505812.159166375] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505812.159271222] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505812.252366983] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505812.252496536] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505812.360958326] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505812.361059977] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505812.553682460] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505812.553805320] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505812.651461094] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505812.651584014] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505812.758287647] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505812.758402442] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505812.872064506] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505812.872172157] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505812.954549526] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505812.954671956] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505813.069478395] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505813.069573163] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505813.152368165] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505813.152494332] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505813.260923120] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505813.261008480] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505813.363691803] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505813.363792682] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505813.451021259] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505813.451119764] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505813.557416253] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505813.557518715] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505813.855570641] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505813.855698802] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505813.949599262] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505813.949748131] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505814.049678210] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505814.049794368] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505814.156222444] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505814.156349883] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505814.251760496] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505814.251851596] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505814.356638715] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505814.356771173] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505814.453697118] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505814.453851036] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505814.558796762] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505814.558898312] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505814.659705607] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505814.659851781] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505814.861630146] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505814.861755511] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505814.959564472] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505814.959682724] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505815.152266985] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505815.152405986] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505815.248961636] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505815.249082433] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505815.553977934] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505815.554080346] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505815.859504048] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505815.859595470] [decision_maker]: Safety status: SAFE
-[anomaly_detector-3] [INFO] [1789505815.961446091] [anomaly_detector]: Detection: no_obstacle
-[decision_maker-4] [INFO] [1789505815.961550376] [decision_maker]: Safety status: SAFE
+[decision_maker-4] [INFO] [1789510739.325877814] [decision_maker]: Decision maker node started
+[gauge_filter-2] [INFO] [1789510739.333297711] [gauge_filter]: Gauge filter node started
+[preprocessor-1] [INFO] [1789510739.346984945] [preprocessor]: Preprocessor node started
+[anomaly_detector-3] [INFO] [1789510739.347435639] [anomaly_detector]: Anomaly detector node started
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1789510741.068786440] [rosbag2_storage]: Opened database '/data/for_hackathon/doubleT_platform/doubleT_platform_0.db3' for READ_ONLY.
+[INFO] [1789510741.068825243] [rosbag2_player]: Set rate to 1
+[INFO] [1789510741.072852155] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1789510741.072897039] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1789510741.072907829] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1789510741.072913550] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1789510741.072918229] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1789510741.073334178] [rosbag2_storage]: Opened database '/data/for_hackathon/doubleT_platform/doubleT_platform_0.db3' for READ_ONLY.
+[anomaly_detector-3] [INFO] [1789510743.607328430] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.607510531] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.632119009] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.632241749] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.651289362] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.651427491] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.668216444] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.668332692] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.684276642] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.684430861] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.697104818] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.697270338] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.711378360] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.711497633] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.724192719] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.724304659] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.738741868] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.738931102] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.751039379] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.751158893] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.780030555] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.780121856] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.879853468] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.879972842] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510743.985275508] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510743.985356690] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510744.075173874] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510744.075251400] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510744.178248678] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510744.178318569] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510744.287785524] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510744.287867097] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510744.386396779] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510744.386512896] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510744.482091180] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510744.482195936] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510744.573576197] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510744.573655897] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510744.679081974] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510744.679192722] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510744.778101844] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510744.778259369] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510744.878216614] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510744.878324816] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510744.975142902] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510744.975224715] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510745.080984908] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510745.081136222] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510745.180654465] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510745.180732160] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510745.283270489] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510745.283345279] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510745.378764094] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510745.378903926] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510745.474143255] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510745.474350784] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510745.577991828] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510745.578096424] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510745.679269987] [preprocessor]: Distance histogram: 5-25m:26 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:26)
+[anomaly_detector-3] [INFO] [1789510745.679686096] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510745.679797465] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510745.779811176] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510745.779950948] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510745.876362602] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510745.876500040] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510745.976200804] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510745.976287617] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510746.078438891] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510746.078538728] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510746.181593103] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510746.181705294] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510746.281184674] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510746.281297204] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510746.383607416] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510746.383694289] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510746.479971842] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510746.480083672] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510746.580808605] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510746.580925003] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510746.680698564] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510746.680787590] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510746.776594282] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510746.776730227] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510746.878141174] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510746.878276217] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510746.977057249] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510746.977143100] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510747.078352961] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510747.078489818] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510747.182676754] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510747.182799234] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510747.277931903] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510747.278016922] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510747.381852831] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510747.381940415] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510747.484670904] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510747.484810516] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510747.579047918] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510747.579126215] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510747.784150786] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510747.784278124] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510747.879471367] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510747.879617200] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510747.981065888] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510747.981148633] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510748.077390680] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510748.077472193] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510748.180488016] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510748.180566784] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510748.378147143] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510748.378272928] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510748.482064945] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510748.482181253] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510748.577841080] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510748.578052886] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510748.683640987] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510748.683751143] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510748.779699470] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510748.779793056] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510748.880344674] [preprocessor]: Distance histogram: 5-25m:86 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:86)
+[anomaly_detector-3] [INFO] [1789510748.880708335] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510748.880789477] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510748.980178688] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510748.980285669] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510749.079424962] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510749.079537172] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510749.178592438] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510749.178737349] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510749.280090208] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510749.280176670] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510749.377778954] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510749.377862852] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510749.474380525] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510749.474468840] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510749.587042594] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510749.587132853] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510749.679584501] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510749.679673628] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510749.779721914] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510749.779805230] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510749.878179540] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510749.878264059] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510749.975439023] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510749.975534352] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510750.079793684] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510750.079928526] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510750.180679368] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510750.180767944] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510750.284388660] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510750.284482075] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510750.377746916] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510750.377885866] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510750.477107043] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510750.477201390] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510750.575874450] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510750.575967103] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510750.678845980] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510750.678965764] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510750.777021077] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510750.777106397] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510750.880133071] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510750.880256272] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510750.988540672] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510750.988636261] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510751.084654670] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510751.084755649] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510751.182656523] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510751.182752031] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510751.285014745] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510751.285098902] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510751.382534705] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510751.382618542] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510751.478503901] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510751.478584753] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510751.580693417] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510751.580810576] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510751.677007229] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510751.677136000] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510751.779009904] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510751.779107678] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510751.875790610] [preprocessor]: Distance histogram: 5-25m:49 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:49)
+[anomaly_detector-3] [INFO] [1789510751.876251073] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510751.876326364] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510751.974546806] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510751.974669456] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510752.074401599] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510752.074482711] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510752.179008563] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510752.179102749] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510752.281707282] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510752.281795718] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510752.381235594] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510752.381342615] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510752.478028543] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510752.478135503] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510752.576946412] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510752.577032533] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510752.680635586] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510752.680726937] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510752.785126752] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510752.785205710] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510752.875538009] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510752.875627527] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510752.975357827] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510752.975461121] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510753.082057650] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510753.082146867] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510753.179125003] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510753.179213378] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510753.282635132] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510753.282722676] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510753.378072272] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510753.378318764] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510753.476661154] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510753.476756733] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510753.577197584] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510753.577271633] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510753.680380220] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510753.680502208] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510753.777293815] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510753.777391608] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510753.875976543] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510753.876125953] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510753.981900483] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510753.981990031] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510754.078718128] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510754.078794281] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510754.177404473] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510754.177492298] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510754.275911472] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510754.276001431] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510754.378209090] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510754.378397553] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510754.479287105] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510754.479380239] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510754.578826738] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510754.578943226] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510754.687404528] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510754.687504435] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510754.786354847] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510754.786458762] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510754.883879497] [preprocessor]: Distance histogram: 5-25m:60 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:60)
+[anomaly_detector-3] [INFO] [1789510754.884391926] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510754.884540274] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510754.986973005] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510754.987098330] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510755.084424157] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510755.084598023] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510755.178796332] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510755.178892653] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510755.280483718] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510755.280577373] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510755.379154433] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510755.379277895] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510755.477626547] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510755.477775376] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510755.580448988] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510755.580533106] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510755.675865590] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510755.675961880] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510755.784686355] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510755.784775532] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510755.885194943] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510755.885306371] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510755.978996289] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510755.979087249] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510756.083184909] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510756.083280458] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510756.182041933] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510756.182191083] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510756.285566069] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510756.285675444] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510756.378970452] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510756.379084595] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510756.479436480] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510756.479558187] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510756.580678792] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510756.580774411] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510756.680725675] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510756.680834549] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510756.777936967] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510756.778042475] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510756.880420864] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510756.880528706] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510756.981243300] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510756.981335112] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510757.085731832] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510757.085815318] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510757.189174965] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510757.189270564] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510757.277198811] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510757.277338112] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510757.375961509] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510757.376079961] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510757.481623849] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510757.481724247] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510757.582027681] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510757.582111147] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510757.676919910] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510757.677048160] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510757.778973401] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510757.779049684] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510757.885527321] [preprocessor]: Distance histogram: 5-25m:1 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:1)
+[anomaly_detector-3] [INFO] [1789510757.885865935] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510757.886052344] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510757.979730640] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510757.979829846] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510758.079406007] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510758.079556379] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510758.179950833] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510758.180047734] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510758.278712249] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510758.278821754] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510758.381169666] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510758.381272328] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510758.481652897] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510758.481756350] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510758.578139792] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510758.578241322] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510758.680901700] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510758.681000395] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510758.775858931] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510758.775946966] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510758.880424117] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510758.880557286] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510758.975957346] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510758.976113519] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510759.085099203] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510759.085194071] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510759.176134939] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510759.176227402] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510759.281716728] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510759.281824370] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510759.376746876] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510759.376867021] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510759.477863262] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510759.477959673] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510759.578671391] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510759.578789833] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510759.677697522] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510759.677777953] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510759.777719108] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510759.777901169] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510759.877388865] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510759.877502849] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510759.981283214] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510759.981383141] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510760.075624712] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510760.075733746] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510760.178346745] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510760.178462241] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510760.282381136] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510760.282493928] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510760.380870933] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510760.380998011] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510760.477404797] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510760.477514883] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510760.583598212] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510760.583703088] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510760.690167420] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510760.690287215] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510760.781032808] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510760.781145359] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510760.883564605] [preprocessor]: Distance histogram: 5-25m:160 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:160)
+[anomaly_detector-3] [INFO] [1789510760.883961508] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510760.884075101] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510760.984711498] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510760.984798471] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510761.081291388] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510761.081380976] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510761.178547665] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510761.178653193] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510761.277502533] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510761.277600627] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510761.379688352] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510761.379765446] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510761.482026436] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510761.482099523] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510761.577241761] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510761.577397162] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510761.689001490] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510761.689086610] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510761.785273614] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510761.785383920] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510761.882583521] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510761.882693036] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510761.984140512] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510761.984286506] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510762.076268284] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510762.076378040] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510762.183876709] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510762.183988298] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510762.284988226] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510762.285113491] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510762.377212559] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510762.377412123] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510762.486853891] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510762.486966262] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510762.581281681] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510762.581383641] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510762.683032916] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510762.683182205] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510762.781113907] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510762.781233702] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510762.889658716] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510762.889821911] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510762.986238556] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510762.986375402] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510763.086044397] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510763.086144164] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510763.184538152] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510763.184646795] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510763.287695581] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510763.287781952] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510763.383692419] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510763.383770675] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510763.485045558] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510763.485137781] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510763.582488805] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510763.582616484] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510763.682895582] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510763.683001681] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510763.791975423] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510763.792126045] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510763.883280334] [preprocessor]: Distance histogram: 5-25m:1217 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:1217)
+[anomaly_detector-3] [INFO] [1789510763.883877282] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510763.883977219] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510763.990888478] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510763.990987674] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510764.084308450] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510764.084441960] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510764.182658025] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510764.182779873] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510764.287474641] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510764.287580168] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510764.381932947] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510764.382016274] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510764.481556227] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510764.481641707] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510764.584044132] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510764.584165369] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510764.678757807] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510764.678831926] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510764.787359061] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510764.787470330] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510764.877726326] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510764.877823508] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510764.981772600] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510764.981849464] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510765.084121935] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510765.084207345] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510765.184643036] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510765.184752071] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510765.280989489] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510765.281072555] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510765.382747457] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510765.382829511] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510765.482399060] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510765.482516049] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510765.583244559] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510765.583345518] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510765.678948378] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510765.679042304] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510765.884094667] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510765.884219431] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510765.983353815] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510765.983433054] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510766.078937730] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510766.079034632] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510766.177860147] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510766.177944505] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510766.283871511] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510766.283962993] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510766.381822700] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510766.381926384] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510766.482048658] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510766.482134599] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510766.581247483] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510766.581336911] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510766.677717097] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510766.677816373] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510766.780736267] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510766.780888151] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510766.880405523] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510766.880489149] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510766.978047131] [preprocessor]: Distance histogram: 5-25m:828 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:828)
+[anomaly_detector-3] [INFO] [1789510766.978370968] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510766.978460235] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510767.080957788] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510767.081041114] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510767.181335932] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510767.181420270] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510767.278429173] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510767.278517198] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510767.382765179] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510767.382870036] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510767.476889370] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510767.476984789] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510767.577156306] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510767.577262254] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510767.681096040] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510767.681185818] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510767.777645042] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510767.777742264] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510767.876642109] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510767.876737327] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510767.979910275] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510767.979995936] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510768.081157527] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510768.081243277] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510768.179266130] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510768.179403587] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510768.281050357] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510768.281160243] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510768.385245028] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510768.385378098] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510768.478477439] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510768.478596392] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510768.581094446] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510768.581198721] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510768.683361808] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510768.683518662] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510768.781524482] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510768.781636151] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510768.884193807] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510768.884339009] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510768.982148191] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510768.982247447] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510769.084868241] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510769.085001441] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510769.178170643] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510769.178263377] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510769.283994135] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510769.284079525] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510769.387183434] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510769.387281548] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510769.482845715] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510769.482949490] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510769.581046882] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510769.581146569] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510769.682924173] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510769.683034861] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510769.789108181] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510769.789209170] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510769.883154025] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510769.883253611] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510769.981795476] [preprocessor]: Distance histogram: 5-25m:935 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:935)
+[anomaly_detector-3] [INFO] [1789510769.982177431] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510769.982262701] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510770.090517326] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510770.090597847] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510770.182865611] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510770.182951853] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510770.299136069] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510770.299292792] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510770.487888465] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510770.488055438] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510770.578518051] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510770.578651341] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510770.685220800] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510770.685298535] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510770.783219988] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510770.783380769] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510770.889497751] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510770.889578713] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510770.979324383] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510770.979461380] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510771.100148289] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510771.100251482] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510771.197663230] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510771.197753680] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510771.276180702] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510771.276290969] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510771.388902854] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510771.388992322] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510771.488844631] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510771.488932125] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510771.592340504] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510771.592432586] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510771.791022386] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510771.791106414] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510771.885960922] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510771.886040952] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510771.985662389] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510771.985743661] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510772.084024797] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510772.084113834] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510772.192244517] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510772.192342641] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510772.303510843] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510772.303643101] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510772.386889229] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510772.386970511] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510772.499166678] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510772.499248762] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510772.581428212] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510772.581523530] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510772.689192539] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510772.689289441] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510772.796446400] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510772.796547940] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510772.882202659] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510772.882294551] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510772.985348516] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510772.985479221] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510773.085789127] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510773.085891849] [decision_maker]: Safety status: SAFE
+[preprocessor-1] [INFO] [1789510773.195893797] [preprocessor]: Distance histogram: 5-25m:916 25-50m:0 50-100m:0 100-200m:0 200-300m:0 (total:916)
+[anomaly_detector-3] [INFO] [1789510773.196541149] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510773.196699646] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510773.288381724] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510773.288506457] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510773.384476716] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510773.384605477] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510773.482744958] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510773.482867247] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510773.588638100] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510773.588737336] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510773.680681555] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510773.680775831] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510773.785219279] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510773.785337209] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510773.884956021] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510773.885046030] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510773.989614061] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510773.989713176] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510774.089987686] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510774.090076402] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510774.185781213] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510774.185880710] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510774.296094995] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510774.296257640] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510774.391586257] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510774.391698216] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510774.489289621] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510774.489406139] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510774.584439753] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510774.584555109] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510774.682086812] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510774.682187681] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510774.787590916] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510774.787748221] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510774.882552696] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510774.882636904] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510774.987136777] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510774.987231394] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510775.092683831] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510775.092775954] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510775.188135278] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510775.188277364] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510775.294061393] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510775.294145871] [decision_maker]: Safety status: SAFE
+[anomaly_detector-3] [INFO] [1789510775.393615783] [anomaly_detector]: Detection: no_obstacle
+[decision_maker-4] [INFO] [1789510775.393709088] [decision_maker]: Safety status: SAFE

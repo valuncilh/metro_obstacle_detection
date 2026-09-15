@@ -47,7 +47,6 @@ private:
 
         pcl::PointCloud<pcl::PointXYZI>::Ptr result(new pcl::PointCloud<pcl::PointXYZI>);
 
-        // Защита: если точек слишком мало, пропускаем RANSAC
         if (downsampled->size() >= kMinPointsForRansac) {
             pcl::SACSegmentation<pcl::PointXYZI> seg;
             pcl::PointIndices::Ptr inliers(new pcl::PointIndices);
@@ -56,7 +55,7 @@ private:
             seg.setModelType(pcl::SACMODEL_PLANE);
             seg.setMethodType(pcl::SAC_RANSAC);
             seg.setDistanceThreshold(0.15);
-            seg.setMaxIterations(100);
+            seg.setMaxIterations(500);  // Увеличили для точности на больших дистанциях
             seg.setInputCloud(downsampled);
             seg.segment(*inliers, *coefficients);
 
@@ -67,22 +66,28 @@ private:
                 extract.setNegative(true);
                 extract.filter(*result);
             } else {
-                // Плоскость не найдена — оставляем как есть
                 *result = *downsampled;
             }
         } else {
-            // Слишком мало точек — пропускаем удаление земли
             *result = *downsampled;
         }
 
-        // Диагностическая гистограмма
+        // Защитный фильтр по Z: отсекаем остатки пола, которые пропустил RANSAC.
+        // Это предотвращает слияние препятствий с дальними точками пола.
+        pcl::PassThrough<pcl::PointXYZI> z_safety;
+        z_safety.setInputCloud(result);
+        z_safety.setFilterFieldName("z");
+        z_safety.setFilterLimits(0.15, 10.0);  // Оставляем точки выше 15 см
+        pcl::PointCloud<pcl::PointXYZI>::Ptr final_cloud(new pcl::PointCloud<pcl::PointXYZI>);
+        z_safety.filter(*final_cloud);
+
         frame_counter_++;
         if (frame_counter_ % 30 == 0) {
-            logDistanceHistogram(*result);
+            logDistanceHistogram(*final_cloud);
         }
 
         sensor_msgs::msg::PointCloud2 output_msg;
-        pcl::toROSMsg(*result, output_msg);
+        pcl::toROSMsg(*final_cloud, output_msg);
         output_msg.header = msg->header;
         pub_->publish(output_msg);
     }

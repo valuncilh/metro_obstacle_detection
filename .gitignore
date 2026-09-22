@@ -29,3 +29,7 @@ venv/
 
 # Распакованный датасет
 data/for_hackathon/
+data/new_data/
+scene_*.ply
+bench_results/
+test_results/

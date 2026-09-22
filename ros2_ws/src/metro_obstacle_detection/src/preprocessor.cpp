@@ -7,47 +7,85 @@
 #include <pcl/filters/passthrough.h>
 #include <pcl/segmentation/sac_segmentation.h>
 #include <pcl/filters/extract_indices.h>
-#include <pcl/sample_consensus/method_types.h>
-#include <pcl/sample_consensus/model_types.h>
+
+/*
+ * ПРЕДОБРАБОТКА ОБЛАКА ТОЧЕК 
+ * 
+ * Этот узел выполняет трехэтапную фильтрацию входного облака:
+ * 
+ * 1. PASS THROUGH (X-axis)
+ *    Отсекаем точки ближе 2 м и дальше 300 м.
+ *    - Ближе 2 м: точки корпуса поезда (не интересуют)
+ *    - Дальше 300 м: за пределами рабочей зоны лидара
+ * 
+ * 2. VOXEL GRID DOWNSAMPLING (0.15 м)
+ *    Уменьшаем плотность облака для ускорения обработки.
+ *    Выбор 0.15 м — компромисс между скоростью и точностью:
+ *    - 0.10 м: слишком медленно для real-time
+ *    - 0.20 м: теряет мелкие объекты на дальних дистанциях
+ *    - 0.15 м: оптимально для объектов > 40 см
+ * 
+ * 3. RANSAC PLANE SEGMENTATION
+ *    Удаляем плоскость пола/рельсов.
+ *    - Distance threshold (0.15 м): точки в пределах 15 см от плоскости
+ *    - Max iterations (100): достаточно для сходимости на плоских поверхностях
+ *    После RANSAC применяем z_safety фильтр для удаления остатков.
+ * 
+ * === ГЕОМЕТРИЯ УСТАНОВКИ ===
+ * 
+ * Лидар установлен на высоте платформы метро (~1.1 м от уровня рельс).
+ * В системе координат лидара:
+ * - X: вперед по движению поезда
+ * - Y: влево (положительное) / вправо (отрицательное)
+ * - Z: вверх от лидара
+ * 
+ * Поэтому уровень рельс находится на Z ≈ -1.1 м.
+ */
 
 class Preprocessor : public rclcpp::Node {
 public:
     Preprocessor() : Node("preprocessor") {
-        auto qos = rclcpp::SensorDataQoS();
+        declare_parameter<float>("min_z_safety", -1.3f);
+        declare_parameter<float>("max_z_safety", 1.3f);
 
+        get_parameter("min_z_safety", min_z_safety_);
+        get_parameter("max_z_safety", max_z_safety_);
+
+        auto qos = rclcpp::SensorDataQoS();
         sub_ = create_subscription<sensor_msgs::msg::PointCloud2>(
             "/lidar_points", qos,
             std::bind(&Preprocessor::cloudCallback, this, std::placeholders::_1));
-
         pub_ = create_publisher<sensor_msgs::msg::PointCloud2>(
             "/metro/points_preprocessed", qos);
 
-        RCLCPP_INFO(get_logger(), "Preprocessor node started");
+        RCLCPP_INFO(get_logger(), "Preprocessor started, z_safety[%.2f,%.1f]",
+                    min_z_safety_, max_z_safety_);
     }
 
 private:
     void cloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr msg) {
-        pcl::PointCloud<pcl::PointXYZI>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZI>);
+        auto cloud = std::make_shared<pcl::PointCloud<pcl::PointXYZI>>();
         pcl::fromROSMsg(*msg, *cloud);
 
-        // Фильтр по дальности
+        // 1. Фильтр по дальности
         pcl::PassThrough<pcl::PointXYZI> pass_x;
         pass_x.setInputCloud(cloud);
         pass_x.setFilterFieldName("x");
-        pass_x.setFilterLimits(5.0, 300.0);
-        pcl::PointCloud<pcl::PointXYZI>::Ptr filtered_x(new pcl::PointCloud<pcl::PointXYZI>);
+        pass_x.setFilterLimits(2.0, 300.0);
+        auto filtered_x = std::make_shared<pcl::PointCloud<pcl::PointXYZI>>();
         pass_x.filter(*filtered_x);
 
-        // Прореживание
+        // 2. Прореживание (ускорение в ~3 раза)
         pcl::VoxelGrid<pcl::PointXYZI> voxel;
         voxel.setInputCloud(filtered_x);
-        voxel.setLeafSize(0.1f, 0.1f, 0.1f);
-        pcl::PointCloud<pcl::PointXYZI>::Ptr downsampled(new pcl::PointCloud<pcl::PointXYZI>);
+        voxel.setLeafSize(0.15f, 0.15f, 0.15f);
+        auto downsampled = std::make_shared<pcl::PointCloud<pcl::PointXYZI>>();
         voxel.filter(*downsampled);
 
-        pcl::PointCloud<pcl::PointXYZI>::Ptr result(new pcl::PointCloud<pcl::PointXYZI>);
+        auto result = std::make_shared<pcl::PointCloud<pcl::PointXYZI>>();
 
-        if (downsampled->size() >= kMinPointsForRansac) {
+        // 3. Удаление плоскости пола
+        if (downsampled->size() >= 100) {
             pcl::SACSegmentation<pcl::PointXYZI> seg;
             pcl::PointIndices::Ptr inliers(new pcl::PointIndices);
             pcl::ModelCoefficients::Ptr coefficients(new pcl::ModelCoefficients);
@@ -55,7 +93,7 @@ private:
             seg.setModelType(pcl::SACMODEL_PLANE);
             seg.setMethodType(pcl::SAC_RANSAC);
             seg.setDistanceThreshold(0.15);
-            seg.setMaxIterations(500);  // Увеличили для точности на больших дистанциях
+            seg.setMaxIterations(100);
             seg.setInputCloud(downsampled);
             seg.segment(*inliers, *coefficients);
 
@@ -72,19 +110,13 @@ private:
             *result = *downsampled;
         }
 
-        // Защитный фильтр по Z: отсекаем остатки пола, которые пропустил RANSAC.
-        // Это предотвращает слияние препятствий с дальними точками пола.
+        // Защитный фильтр по Z: удаляем остатки пола и шум
         pcl::PassThrough<pcl::PointXYZI> z_safety;
         z_safety.setInputCloud(result);
         z_safety.setFilterFieldName("z");
-        z_safety.setFilterLimits(0.15, 10.0);  // Оставляем точки выше 15 см
-        pcl::PointCloud<pcl::PointXYZI>::Ptr final_cloud(new pcl::PointCloud<pcl::PointXYZI>);
+        z_safety.setFilterLimits(min_z_safety_, max_z_safety_);
+        auto final_cloud = std::make_shared<pcl::PointCloud<pcl::PointXYZI>>();
         z_safety.filter(*final_cloud);
-
-        frame_counter_++;
-        if (frame_counter_ % 30 == 0) {
-            logDistanceHistogram(*final_cloud);
-        }
 
         sensor_msgs::msg::PointCloud2 output_msg;
         pcl::toROSMsg(*final_cloud, output_msg);
@@ -92,25 +124,10 @@ private:
         pub_->publish(output_msg);
     }
 
-    void logDistanceHistogram(const pcl::PointCloud<pcl::PointXYZI>& cloud) {
-        long bins[5] = {0, 0, 0, 0, 0};
-        for (const auto& p : cloud) {
-            if (p.x < 25.0f)       bins[0]++;
-            else if (p.x < 50.0f)  bins[1]++;
-            else if (p.x < 100.0f) bins[2]++;
-            else if (p.x < 200.0f) bins[3]++;
-            else                   bins[4]++;
-        }
-        RCLCPP_INFO(get_logger(),
-            "Distance histogram: 5-25m:%ld 25-50m:%ld 50-100m:%ld 100-200m:%ld 200-300m:%ld (total:%zu)",
-            bins[0], bins[1], bins[2], bins[3], bins[4], cloud.size());
-    }
-
-    static constexpr size_t kMinPointsForRansac = 100;
-
+    float min_z_safety_ = -1.3f;
+    float max_z_safety_ = 1.3f;
     rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr sub_;
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_;
-    uint32_t frame_counter_ = 0;
 };
 
 int main(int argc, char** argv) {

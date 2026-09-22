@@ -1,19 +1,23 @@
-# Параметры пайплайна обнаружения препятствий
-
-preprocessor:
-  min_range: 1.0
-  max_range: 300.0
-  voxel_leaf_size: 0.15
+anomaly_detector:
+  ros__parameters:
+    cluster_tolerance: 0.6
+    min_cluster_size: 6
+    max_cluster_size: 100000
+    min_obstacle_height: 0.15
+    max_obstacle_length: 5.0
+    max_obstacle_width: 2.7
+    density_coefficient: 900.0
 
 gauge_filter:
-  x_min: -2.0
-  x_max: 300.0
-  y_min: -1.5
-  y_max: 1.5
-  z_min: -0.5
-  z_max: 4.0
+  ros__parameters:
+    min_x: 2.0
+    max_x: 300.0
+    min_y: -1.5
+    max_y: 1.5
+    min_z: -1.1
+    max_z: 3.0
 
-anomaly_detector:
-  cluster_tolerance: 0.5
-  min_cluster_size: 15
-  max_cluster_size: 50000
+preprocessor:
+  ros__parameters:
+    min_z_safety: -1.3
+    max_z_safety: 1.3

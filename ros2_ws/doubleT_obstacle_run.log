@@ -1,0 +1,316 @@
+[run.sh] Запуск на: for_hackathon/doubleT_obstacle --duration 30
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.4.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-09-29-20-06-11-090062-cachyos-x8664-96
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [preprocessor-1]: process started with pid [98]
+[INFO] [gauge_filter-2]: process started with pid [100]
+[INFO] [anomaly_detector-3]: process started with pid [102]
+[INFO] [decision_maker-4]: process started with pid [104]
+[decision_maker-4] [INFO] [1790712371.145775782] [decision_maker]: Decision maker node started
+[anomaly_detector-3] [INFO] [1790712371.149021587] [anomaly_detector]: Started with GPU acceleration
+[gauge_filter-2] [INFO] [1790712371.150306360] [gauge_filter]: Gauge filter: x[2.0,300.0] y[-1.5,1.5] z[-1.1,3.0]
+[preprocessor-1] [INFO] [1790712371.168827343] [preprocessor]: Preprocessor started, z_safety[-1.30,1.3]
+[0m[INFO] [1790712374.101734263] [rosbag2_storage]: Opened database '/data/for_hackathon/doubleT_obstacle/doubleT_obstacle_0.db3' for READ_ONLY.[0m
+[0m[INFO] [1790712374.101787473] [rosbag2_player]: Set rate to 1[0m
+[0m[INFO] [1790712374.105319366] [rosbag2_player]: Adding keyboard callbacks.[0m
+[0m[INFO] [1790712374.105354602] [rosbag2_player]: Press SPACE for Pause/Resume[0m
+[0m[INFO] [1790712374.105370652] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message[0m
+[0m[INFO] [1790712374.105381482] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%[0m
+[0m[INFO] [1790712374.105391802] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%[0m
+[0m[INFO] [1790712374.105716832] [rosbag2_storage]: Opened database '/data/for_hackathon/doubleT_obstacle/doubleT_obstacle_0.db3' for READ_ONLY.[0m
+[anomaly_detector-3] [INFO] [1790712376.152115934] [anomaly_detector]: Stats: frames=0, detections=0
+[anomaly_detector-3] [WARN] [1790712378.728629135] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712378.728941211] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712378.729059453] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.3 m
+[anomaly_detector-3] [WARN] [1790712378.729267033] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712378.729163308] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.3 m)
+[decision_maker-4] [INFO] [1790712378.729337665] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712378.729520980] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712378.729625175] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712378.729760409] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[anomaly_detector-3] [WARN] [1790712378.729929727] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712378.729813409] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[decision_maker-4] [INFO] [1790712378.729999418] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712378.748748468] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712378.748979883] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712378.843978978] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712378.844176509] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712378.948040512] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712378.948420065] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712379.149349763] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712379.149639727] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712379.453270714] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712379.453623106] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712379.547210389] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712379.547377443] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712379.644719627] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712379.644893073] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712379.751237013] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712379.751433722] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712379.854955922] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712379.855136772] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712379.962367086] [anomaly_detector]: DETECTED: 4 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712379.962690093] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 4, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712380.057421083] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712380.057623814] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712380.169695640] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712380.169941221] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712380.256201684] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712380.256388064] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712380.354589902] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712380.354858126] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712380.450798047] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712380.451008592] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712380.551193244] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712380.551375537] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712380.647293336] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712380.647486398] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712380.752142037] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712380.752394471] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712380.851141693] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712380.851324016] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712380.951679489] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712380.951850440] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712381.045995740] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712381.046162793] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712381.151384674] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712381.151581254] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [INFO] [1790712381.152021170] [anomaly_detector]: Stats: frames=28, detections=67
+[anomaly_detector-3] [WARN] [1790712381.246288950] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712381.246492332] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712381.351202111] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712381.351391707] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712381.449989188] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712381.450180046] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712381.548156932] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712381.548503362] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712381.643159772] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712381.643374645] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712381.746402125] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712381.746608082] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712381.849237465] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712381.849436028] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712381.951302798] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712381.951487705] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712382.051934328] [anomaly_detector]: DETECTED: 4 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712382.052187754] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 4, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712382.168562369] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712382.168854798] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712382.262121026] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712382.262279324] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712382.467906299] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712382.468086247] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712382.550213246] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712382.550490216] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712382.642090987] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712382.642350084] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712382.743277620] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712382.743468037] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712382.846766385] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712382.846981068] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712382.949703014] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712382.949887140] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712383.051483822] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712383.051659171] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712383.248854110] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712383.249121482] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712383.356154794] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712383.356316458] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712383.448994020] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712383.449186621] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712383.548339895] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712383.548537326] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712383.750601639] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712383.750787428] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712383.850786720] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712383.851008787] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712383.946532354] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712383.946697795] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712384.060246170] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712384.060447549] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712384.158844140] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712384.159044156] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712384.252372860] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712384.252551506] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712384.371817479] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712384.372026912] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712384.457418732] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712384.457615812] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712384.571826461] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712384.572011609] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712384.652664870] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712384.652863352] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712384.748100421] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712384.748286801] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712384.851182441] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712384.851358312] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712384.947574509] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712384.947765197] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712385.047172907] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712385.047416955] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712385.148066427] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712385.148262866] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712385.248071849] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712385.248300018] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712385.351303029] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.1 m
+[decision_maker-4] [INFO] [1790712385.351528763] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.1 m)
+[anomaly_detector-3] [WARN] [1790712385.451557389] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712385.451738810] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712385.547254400] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712385.547435420] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712385.648719474] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712385.649043402] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712385.748929911] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712385.749120950] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712385.846520539] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712385.846686610] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712385.942998276] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712385.943186319] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712386.042649383] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712386.042890405] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [INFO] [1790712386.152103849] [anomaly_detector]: Stats: frames=46, detections=115
+[anomaly_detector-3] [WARN] [1790712386.243726438] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712386.244016082] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712386.354458654] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712386.354757906] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712386.457642715] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.5 m
+[decision_maker-4] [INFO] [1790712386.457853401] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.5 m)
+[anomaly_detector-3] [WARN] [1790712386.566596952] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712386.566786407] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712386.658527309] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712386.658712527] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712386.768883489] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712386.769074397] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712386.860401682] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712386.860592671] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712386.953668699] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712386.953849228] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712387.047335567] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712387.047507590] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712387.149009993] [anomaly_detector]: DETECTED: 4 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712387.149206842] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 4, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712387.249688908] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712387.249876240] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712387.541324624] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712387.541534929] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712387.655141952] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712387.655327751] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712387.758591952] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712387.758799652] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712387.861898733] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712387.862083329] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712387.952371342] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712387.952553073] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712388.151586659] [anomaly_detector]: DETECTED: 4 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712388.151779441] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 4, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712388.249750721] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712388.249963260] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712388.443690421] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712388.443909703] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712388.552312543] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712388.552516776] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712388.969766340] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712388.970031638] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712389.247535171] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712389.247722864] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712389.343739573] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712389.343938056] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712389.447647351] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712389.447840694] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712389.550169227] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712389.550350066] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712389.646850303] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712389.646999534] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712389.745821681] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712389.746012630] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712390.042504400] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712390.042694477] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712390.147185971] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712390.147349588] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712390.243912242] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712390.244099163] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712390.350780098] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712390.350994070] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712390.454309364] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712390.454529097] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712390.551226905] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712390.551458510] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712390.649206530] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712390.649399482] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712391.064814766] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712391.065007969] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [INFO] [1790712391.152116939] [anomaly_detector]: Stats: frames=35, detections=91
+[anomaly_detector-3] [WARN] [1790712391.159603338] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712391.159760172] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712391.258173220] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712391.258366774] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712391.747992354] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712391.748152414] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712391.843791914] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712391.844003331] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712391.945052029] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712391.945243067] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712392.038615249] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712392.038927806] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712392.147305376] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712392.147492457] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712392.352988694] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712392.353213716] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712392.455176540] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712392.455362269] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712392.545882204] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712392.546066400] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712392.659558143] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712392.659729926] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712392.759329141] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712392.759507416] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712392.884252732] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712392.884424855] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712392.950195955] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712392.950364792] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712393.047693523] [anomaly_detector]: DETECTED: 4 clusters, min_dist=6.1 m
+[decision_maker-4] [INFO] [1790712393.047874513] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 4, distance: 6.1 m)
+[anomaly_detector-3] [WARN] [1790712393.147140803] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712393.147352851] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712393.249412826] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712393.249600729] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712393.351648582] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712393.351819653] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712393.450576125] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712393.450741155] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712393.546600426] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712393.546779542] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712393.647461761] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712393.647734593] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712393.744653394] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712393.744850153] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712393.848726500] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712393.848911006] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712393.943065897] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712393.943258729] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)
+[anomaly_detector-3] [WARN] [1790712394.048228448] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712394.048544322] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712394.143949069] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712394.144141129] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712394.248918748] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712394.249155492] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712394.348329187] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.3 m
+[decision_maker-4] [INFO] [1790712394.348605666] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
+[anomaly_detector-3] [WARN] [1790712394.455644040] [anomaly_detector]: DETECTED: 2 clusters, min_dist=6.4 m
+[decision_maker-4] [INFO] [1790712394.455929957] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.4 m)
+[anomaly_detector-3] [WARN] [1790712394.554720011] [anomaly_detector]: DETECTED: 3 clusters, min_dist=6.2 m
+[decision_maker-4] [INFO] [1790712394.554875302] [decision_maker]: Safety status: DANGER: obstacle_detected (clusters: 3, distance: 6.2 m)

@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.18)
 project(metro_obstacle_detection)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
+  add_compile_options($<$<COMPILE_LANGUAGE:CXX>:-Wall>
+                      $<$<COMPILE_LANGUAGE:CXX>:-Wextra>
+                      $<$<COMPILE_LANGUAGE:CXX>:-Wpedantic>)
 endif()
 
 set(CMAKE_CXX_STANDARD 17)
@@ -39,14 +41,16 @@ add_library(cluster_cpu src/cluster_cpu.cpp)
 target_link_libraries(cluster_cpu ${PCL_LIBRARIES})
 
 if(USE_CUDA)
-  add_library(cluster_gpu src/cluster_gpu.cu)
-  set_target_properties(cluster_gpu PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
+  add_library(cluster_gpu
+    src/cluster_gpu.cpp
+    src/cluster_gpu_kernels.cu
+  )
   target_include_directories(cluster_gpu PRIVATE
     include
     ${PCL_INCLUDE_DIRS}
     ${EIGEN3_INCLUDE_DIRS}
   )
-  target_link_libraries(cluster_gpu CUDA::cudart)
+  target_link_libraries(cluster_gpu CUDA::cudart ${PCL_LIBRARIES})
 endif()
 
 add_executable(preprocessor src/preprocessor.cpp)

@@ -1,45 +1,3 @@
-# Metro Obstacle Detection
-
-Геометрическая система обнаружения посторонних объектов в тоннеле метро для автономного поезда.
-
-Проект команды **DeepConv** для кейса Департамента транспорта Москвы.
-
-Система получает 3D point cloud от лидара **Hesai Pandar128**, удаляет известные элементы тоннельной инфраструктуры, выделяет аномальные кластеры внутри габарита движения поезда и определяет наличие препятствия.
-
-Основной принцип работы — **геометрическая детекция без обучения на размеченных примерах**.
-
-Вместо классификации объекта система строит модель нормального тоннеля:
-
-* пол;
-* рельсы;
-* стены;
-* кабели и коммуникации;
-* область движения поезда.
-
-Кластер точек считается препятствием, если он не соответствует этой геометрической модели, находится в габарите движения и проходит набор проверок по размеру и плотности.
-
----
-
-## Основные характеристики
-
-| Параметр          |        Значение |
-| ----------------- | --------------: |
-| LiDAR             | Hesai Pandar128 |
-| Точек на кадр     |         307 200 |
-| Частота LiDAR     |           10 Гц |
-| Рабочая дальность |         2–300 м |
-| Размер voxel      |          0.15 м |
-| Габарит поезда    |           2.7 м |
-| Колея             |         1520 мм |
-| ROS               |    ROS 2 Humble |
-| Язык              |           C++17 |
-| GPU               |     CUDA 12.4.1 |
-| CPU clustering    |             PCL |
-| GPU clustering    |            CUDA |
-| Выходной статус   | `SAFE / DANGER` |
-
----
-
 # Архитектура системы
 
 Архитектура представлена в виде UML component diagram.
@@ -63,8 +21,9 @@ flowchart LR
     end
 
     VIS["RViz2"]
-    ML["ML Classifier"]
+    ML["Optional ML Classifier"]
     OUTPUT["ROS 2 topics"]
+    UE["UE5 Bridge<br/>TCP"]
 
     BAG --> REMAP
     REMAP --> PRE
@@ -77,6 +36,8 @@ flowchart LR
 
     OUTPUT --> VIS
     OUTPUT --> ML
+    UE -->|"PointCloud2 /lidar_points"| PRE
+    OUTPUT -->|"status / distance / class"| UE
 
     PRE -. metrics .-> METRICS
     GAUGE -. metrics .-> METRICS
@@ -96,6 +57,8 @@ flowchart LR
 | `decision_maker`     | Формирование `SAFE / DANGER`                                              |
 | `metrics_logger`     | Сбор FPS, latency, CPU и RAM                                              |
 | `synthetic_scene.py` | Генерация тестовых сцен                                                   |
+| `ue_bridge_node.py`  | Связка UE5 ↔ ROS 2 для тестирования и визуализации                       |
+| `object_classifier_node.py` | Опциональная классификация обнаруженного объекта                 |
 | RViz2                | Визуализация point cloud и результатов                                    |
 
 ---
@@ -650,6 +613,55 @@ visualization_msgs/msg/MarkerArray
 
 ---
 
+### `/metro/object_class`
+
+Тип:
+
+```text
+std_msgs/msg/String
+```
+
+Опциональный результат отдельного ML-классификатора.
+
+Формат:
+
+```text
+id:name:confidence
+```
+
+Например:
+
+```text
+4:obstacle:0.9821
+```
+
+---
+
+## UE5 Bridge
+
+Пакет `ue_bridge_pkg` использует отдельный TCP-протокол между UE5 и ROS 2.
+
+UE5 передаёт кадры LiDAR в bridge, после чего они публикуются как обычный:
+
+```text
+/lidar_points
+sensor_msgs/msg/PointCloud2
+```
+
+В обратную сторону bridge передаёт:
+
+```text
+SAFE / DANGER
+distance
+class_id
+class_name
+confidence
+```
+
+Такой интерфейс позволяет использовать UE5 как источник синтетического point cloud и одновременно показывать результат реального ROS 2-алгоритма в визуальной сцене.
+
+---
+
 # Полная схема ROS 2 интерфейсов
 
 ```mermaid
@@ -743,8 +755,9 @@ C++17
 
 ```bash
 docker build \
-  -t metro_obstacle:dev \
-  ros2_ws/
+  -t metro_obstacle:cpu \
+  ros2_ws/ \
+  --build-arg USE_CUDA=OFF
 ```
 
 ## GPU
@@ -777,7 +790,17 @@ docker build \
 ---
 
 ## Демонстрация
-[Архив проекта и видео демонстрации](https://drive.google.com/drive/folders/1B3atd5QJvvHEFeWFFKoKJlb-78TLQSwz)
+
+[Архив проекта и материалы демонстрации на Google Drive](https://drive.google.com/drive/folders/1B3atd5QJvvHEFeWFFKoKJlb-78TLQSwz)
+
+На диске по ссылке находятся:
+
+* видео работы алгоритма обнаружения препятствий;
+* видео визуализации работы системы в **Unreal Engine 5 (UE5)**;
+* готовое приложение **`.exe`** для запуска UE5-визуализации;
+* дополнительные материалы демонстрации проекта.
+
+UE5-визуализация подключается к ROS 2 через `ue_bridge_pkg`: синтетический или процедурно сформированный point cloud передаётся в основной pipeline, а результат детекции возвращается в визуальную сцену.
 
 # Тестирование
 
@@ -874,17 +897,8 @@ RAM
 
 ---
 
-# Быстрый старт
-
-```bash
-# Сборка
-docker build -t metro_obstacle:dev ros2_ws/
-
 # Запуск
 ./ros2_ws/run.sh run data/for_hackathon/doubleT_obstacle
-
-# Тесты
-./ros2_ws/run.sh test
 
 # RViz2
 ./ros2_ws/run.sh rviz data/for_hackathon/doubleT_obstacle
@@ -904,139 +918,49 @@ SAFE / DANGER
 
 # Эксперименты
 
-| Эксперимент               | Результат                  |
-| ------------------------- | -------------------------- |
-| 6 dev-бэгов, 2270 кадров  | 0 ложных срабатываний      |
-| `doubleT_obstacle`        | 100% кадров с препятствием |
-| `doubleT_obstacle`        | `D = 6.0–6.1 м`            |
-| `doubleT_obstacle`        | Статус без мигания         |
-| Синтетика, 50 м           | 50.4 м                     |
-| Синтетика, 100 м          | 100.6 м                    |
-| Синтетика, 200 м          | 199.1 м                    |
-| Пустой тоннель, 300 м     | 0 детекций                 |
-| Сближение, 120 м @ 10 м/с | 110 → 5 м без потерь       |
-| `new_data`, ~20 мин       | Стабильная обработка       |
-| RTX 4060 Mobile           | ~7.6 FPS при входе 10 Гц   |
-| RTX 4060 Mobile           | ~120 мс latency            |
+## Фактически проверенный запуск
 
----
+На текущей версии проекта выполнен реальный запуск Docker + ROS 2 + ROS 2 bag на сценарии `doubleT_obstacle`.
 
-# Анализ отклонённых гипотез
+Команда:
 
-## RANSAC без Z-barrier
-
-### Наблюдение
-
-После удаления плоскости пола на дальних расстояниях оставались отдельные точки.
-
-При:
-
-```text
-D > 30 м
+```bash
+./ros2_ws/run.sh run data/for_hackathon/doubleT_obstacle --duration 30
 ```
 
-они могли объединяться с точками препятствия.
+Результат запуска:
 
-### Последствие
+| Параметр | Результат |
+|---|---|
+| Docker image | `metro_obstacle:dev` |
+| CUDA | `12.4.1` |
+| Режим detector | GPU acceleration |
+| ROS 2 bag | `doubleT_obstacle_0.db3` |
+| Сценарий | `doubleT_obstacle` |
+| ROS 2 bag rate | `1.0` |
+| Обнаружение препятствия | Да |
+| Выходной статус | `DANGER: obstacle_detected` |
+| Наблюдаемая дистанция в обнаружениях | `6.1–6.4 м` |
+| Число кластеров в обнаружениях | `2–4` |
+| Завершение процессов | штатное, `process has finished cleanly` |
 
-Один кластер мог содержать одновременно:
-
-```text
-остатки пола + препятствие
-```
-
-что приводило к некорректной геометрии кластера и пропускам.
-
-### Решение
-
-Добавлен Z-barrier.
-
----
-
-## Фиксированный `min_cluster_size`
-
-### Наблюдение
-
-На больших расстояниях количество точек от объекта уменьшается.
-
-При:
+Detector в ходе запуска выдавал сообщения вида:
 
 ```text
-D > 50 м
+DETECTED: 2 clusters, min_dist=6.3 m
+Safety status: DANGER: obstacle_detected (clusters: 2, distance: 6.3 m)
 ```
 
-объект мог содержать менее 30 точек.
-
-### Последствие
-
-Фиксированный threshold приводил к пропускам дальних объектов.
-
-### Решение
-
-Использован адаптивный threshold:
+Периодическая статистика detector за время запуска:
 
 ```text
-required = max(6, 900 / D²)
+Stats: frames=28, detections=67
+Stats: frames=46, detections=115
+Stats: frames=35, detections=91
 ```
 
----
+Эти значения являются промежуточными интервалами статистики detector и не должны интерпретироваться как полный итоговый FPS или как точная полнота обнаружения по всему bag.
 
-## Порог ширины 3.5 м
-
-### Наблюдение
-
-При расположении препятствия рядом со стеной точки объекта могли объединяться с пристеночными точками.
-
-Размер кластера достигал примерно:
-
-```text
-4 м
-```
-
-### Последствие
-
-Порог `3.5 м` приводил к нестабильному результату:
-
-```text
-SAFE → DANGER → SAFE
-```
-
-### Решение
-
-Порог отбраковки увеличен до:
-
-```text
-4.2 м
-```
-
----
-
-# Производительность
-
-На тестовой системе:
-
-```text
-GPU: RTX 4060 Mobile
-Input: 10 Hz
-Processing: ~7.6 FPS
-Latency: ~120 ms
-```
-
-GPU-кластеризация имеет вычислительную сложность, близкую к:
-
-```text
-O(n²)
-```
-
-по количеству точек.
-
-Поэтому после предварительной фильтрации практическая рабочая область составляет порядка:
-
-```text
-10⁴ points
-```
-
----
 
 # Ограничения
 
@@ -1114,38 +1038,6 @@ semantic class
 
 ---
 
-# Интеграция с Blender
-
-Документация:
-
-```text
-docs/BLENDER_INTEGRATION.md
-```
-
-Документ содержит:
-
-* систему координат;
-* формат `PointCloud2`;
-* соответствие координат Blender ↔ ROS 2;
-* пример publisher;
-* параметры сцены.
-
-Система координат:
-
-```text
-X → вперёд
-Y → влево
-Z → вверх
-```
-
-Origin:
-
-```text
-LiDAR на высоте 1.1 м от головки рельса
-```
-
----
-
 # Структура репозитория
 
 ```text
@@ -1160,156 +1052,71 @@ olimpiada_ltc/
 │       └── log.md
 │
 ├── ros2_ws/
-│   │
 │   ├── Dockerfile
 │   ├── run.sh
 │   ├── benchmark.sh
-│   │
 │   ├── scripts/
 │   │   └── synthetic_scene.py
-│   │
 │   └── src/
-│       └── metro_obstacle_detection/
-│           │
-│           ├── src/
-│           │   ├── preprocessor
-│           │   ├── gauge_filter
-│           │   ├── anomaly_detector
-│           │   ├── cluster_cpu
-│           │   ├── cluster_gpu
-│           │   ├── decision_maker
-│           │   └── metrics_logger
-│           │
-│           ├── include/
-│           │   └── types.hpp
-│           │
-│           ├── config/
-│           │   ├── params.yaml
-│           │   └── rviz2_config.rviz
-│           │
-│           └── launch/
+│       ├── metro_obstacle_detection/
+│       │   ├── src/
+│       │   │   ├── preprocessor.cpp
+│       │   │   ├── gauge_filter.cpp
+│       │   │   ├── anomaly_detector.cpp
+│       │   │   ├── cluster_cpu.cpp
+│       │   │   ├── cluster_gpu.cpp
+│       │   │   ├── cluster_gpu_kernels.cu
+│       │   │   ├── decision_maker.cpp
+│       │   │   └── metrics_logger.cpp
+│       │   ├── include/
+│       │   │   └── types.hpp
+│       │   ├── config/
+│       │   │   ├── params.yaml
+│       │   │   ├── rviz2_config.rviz
+│       │   │   └── demo.rviz
+│       │   └── launch/
+│       └── ue_bridge_pkg/
+│           └── ue_bridge_pkg/
+│               ├── ue_bridge_node.py
+│               └── object_classifier_node.py
 │
 └── README.md
 ```
 
 ---
 
-# Соглашения разработки
+# Соответствие ТЗ
 
-## Git branches
+Проверка выполнена по текущему исходному коду, Docker-конфигурации, README и требованиям ТЗ из документа «Система обнаружения посторонних объектов для беспилотных поездов в тоннеле метро по данным 3D-лидара».
 
-```text
-main
-dev
-feat/*
-fix/*
-```
+| Требование ТЗ | Статус | Что есть в проекте |
+|---|---|---|
+| Обнаружение потенциального препятствия | ✅ | Геометрический детектор, `SAFE / DANGER`, `/metro/obstacles_raw`, `/metro/safety_status` |
+| Расстояние до ближайшего препятствия | ✅ | `/metro/obstacle_distance`, вычисление минимальной дистанции |
+| Обработка ROS 2 PointCloud2 | ✅ | `/lidar_points` и последовательный ROS 2 pipeline |
+| Docker | ✅ | `ros2_ws/Dockerfile`, `build.sh`, `run.sh` |
+| ROS 2 Humble / Ubuntu 22.04 | ✅ | Зафиксированы в Dockerfile и README |
+| Чтение и проигрывание ROS 2 bag | ✅ | `ros2 bag play` через `run.sh`, автоматический remap старого топика |
+| Результат работы алгоритма | ✅ | ROS 2 topics, логи, RViz2, SAFE/DANGER |
+| Демонстрация через визуализацию | ✅ | RViz2 + интеграция с UE5 через `ue_bridge_pkg` |
+| README с инструкциями | ✅ | Сборка, запуск, bag, параметры, архитектура, алгоритм, эксперименты |
+| Архитектура и описание алгоритма | ✅ | Отдельные разделы с pipeline, фильтрацией, кластеризацией и decision making |
+| Эксперименты | ✅ | Dev-bag тесты, синтетические дистанции, FPS и latency |
+| Короткое видео работы | ⚠️ | В README указан Google Drive с видео; наличие и содержание внешних файлов нельзя проверить из репозитория |
+| Полная демонстрация на контрольном bag-файле | ⚠️ | Скрипты и pipeline для bag есть, но контрольный bag и факт финального прогона на нём в проекте не представлены |
+| Работа на новых/неизвестных данных | ⚠️ | Есть тестирование нескольких dev-бэгов и `new_data`; контрольный закрытый набор недоступен для проверки |
+| Положение/тип/размер объекта | ⚠️ | Точки и маркеры доступны, интерфейс ML-классификатора есть; оценка габаритов ещё отмечена как работающаяся задача |
 
-Назначение:
-
-* `main` — стабильная версия;
-* `dev` — текущая разработка;
-* `feat/*` — новые возможности;
-* `fix/*` — исправления.
-
----
-
-## Commit convention
-
-Используется **Conventional Commits**.
-
-Примеры:
-
-```text
-feat: add adaptive density threshold
-fix: prevent wall points from merging with obstacle
-perf: optimize GPU clustering
-docs: update benchmark results
-refactor: split detector pipeline
-```
-
----
-
-## C++
-
-Используется:
-
-```text
-C++17
-```
-
-Основные соглашения:
-
-* ROS 2 / Google C++ style;
-* константы — `kPascalCase`;
-* поля классов — `snake_case_`;
-* память управляется через smart pointers;
-* ROS 2 parameters объявляются через `declare_parameter`.
-
----
-
-## Эксперименты
-
-Результаты экспериментов фиксируются в:
-
-```text
-docs/experiments/log.md
-```
-
-Запись результата выполняется **до коммита изменения алгоритма**.
-
-Файлы размером более:
-
-```text
-10 MB
-```
-
-не добавляются в Git.
-
----
-
-# Текущий статус
-
-## Готово
-
-* [x] Основной ROS 2 pipeline
-* [x] Обработка Hesai Pandar128
-* [x] Spatial filtering
-* [x] Voxel downsampling
-* [x] RANSAC floor removal
-* [x] Z-barrier
-* [x] Gauge filtering
-* [x] CPU clustering
-* [x] CUDA clustering
-* [x] Геометрическая валидация
-* [x] Адаптивный density threshold
-* [x] Определение расстояния до препятствия
-* [x] `SAFE / DANGER`
-* [x] ROS 2 integration topics
-* [x] RViz2 visualization
-* [x] Синтетический генератор
-* [x] Benchmark tooling
-* [x] Docker environment
-* [x] Blender integration documentation
-* [x] ML integration interface
-
-## В работе
-
-* [ ] Видео работы алгоритма согласно ТЗ, п. 5
-* [ ] Межкадровый tracking
-* [ ] Оценка габаритов препятствия
-
----
 
 # Команда
 
 **DeepConv**
 
-Мейнтейнер:
+Мейнтейнеры:
 
-```text
-vlaimir_vinogradov
-```
+- vlaimir_vinogradov
+- albert_sharafiev
+- timofey_kudakov
 
 Контакт:
 
@@ -1317,8 +1124,3 @@ vlaimir_vinogradov
 vv299907@xmail.ru
 ```
 
----
-
-# License
-
-Лицензия проекта не указана.

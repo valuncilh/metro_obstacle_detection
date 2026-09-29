@@ -2,11 +2,11 @@
 #include <cuda_runtime.h>
 #include <map>
 
-// Связные компоненты через min-label propagation:
-// linkKernel добавляет ребро между точками в радиусе допуска,
-// resolveKernel сходится к минимуму компоненты (hooking + pointer jumping).
-// O(n^2) скан приемлем для облаков до ~10^4 точек после фильтрации;
-// выше — заменять на воксельный поиск соседей.
+// Связные компоненты: linkKernel строит рёбра (atomicMin по обоим концам),
+// resolveKernel доводит метку до минимума компоненты pointer-jumping'ом.
+// Один проход «точка -> ближайший сосед» без этого даёт пары вместо цепочек,
+// поэтому объект дробился на 4-6 кластеров.
+// O(n^2) скан приемлем до ~10^4 точек после фильтрации; выше — воксельный поиск.
 
 namespace metro {
 
@@ -74,6 +74,8 @@ public:
         initLabelsKernel<<<blocks, threads>>>(d_labels, n);
         linkKernel<<<blocks, threads>>>(d_points, d_labels, n, tol_sq);
 
+        // 64 итерации покрывают цепочки длиной до 64; после CropBox точек мало,
+        // схода хватает с запасом.
         bool changed = true;
         for (int iter = 0; iter < 64 && changed; ++iter) {
             changed = false;

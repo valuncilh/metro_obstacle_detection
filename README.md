@@ -776,6 +776,9 @@ docker build \
 
 ---
 
+## Демонстрация
+[Архив проекта и видео демонстрации](https://drive.google.com/drive/folders/1B3atd5QJvvHEFeWFFKoKJlb-78TLQSwz)
+
 # Тестирование
 
 Полный прогон шести dev-бэгов:
